@@ -67,7 +67,10 @@ def get_embedder_name() -> str:
 
 def qdrant_collection() -> str:
     """One collection per embedder — same dim ≠ same vector space."""
-    return f"{settings.QDRANT_COLLECTION}_{get_embedder_name()}"
+    if model_type == "gemini":
+        return f"{settings.QDRANT_COLLECTION}_gemini"
+
+    return f"{settings.QDRANT_COLLECTION}_fallback"
 
 
 def get_embedding_dim() -> int:
