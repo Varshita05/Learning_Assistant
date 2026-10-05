@@ -2,15 +2,14 @@ from bs4 import BeautifulSoup
 from pypdf import PdfReader
 import pdfplumber
 import logfire
-import fitz
+import pymupdf
 import re
 from docx import Document
 from pptx import Presentation
 from pathlib import Path
 
-# Unstructured - for extracting text from word doc and ppts
 # Beautiful Soup - for extracting html text
-# Pypdf - for extracting text from pdfs
+# PyMupdf - for extracting text from pdfs
 # Logfire - logging and observability
 
 def parse_html(file_path: str) -> str:
@@ -76,7 +75,7 @@ def parse_pdf(file_path: str) -> list[dict]:
         fallback_pages = []
 
         try:
-            doc = fitz.open(file_path)
+            doc = pymupdf.open(file_path)
 
             for page_no, page in enumerate(doc, start=1):
                 try:
