@@ -1,0 +1,1626 @@
+{
+  "file_name": "Natural Language Processing PPT.pptx",
+  "source_type": "data",
+  "chunks": [
+    {
+      "child_id": "parent_0_child_0",
+      "parent_id": "parent_0",
+      "text": "Course Title –NATURAL LANGUAGE PROCESSING\nTopic Title: NATURAL LANGUAGE PROCESSING\nPresenter’s Name – B. Lakshmi Prasanna\nPresenter’s ID – IARE10706 Department Name – IT\n1\nIntroduction\nNatural  Language  Processing  (NLP)  is  a  field  that  combines  computer\nscience, artificial intelligence and language studies.\nIt helps computers understand, process and create human language in a way\nthat makes sense and is useful.",
+      "heading": null,
+      "page_start": 1,
+      "page_end": 6,
+      "child_index": 0,
+      "parent_index": 0
+    },
+    {
+      "child_id": "parent_0_child_1",
+      "parent_id": "parent_0",
+      "text": "that makes sense and is useful.\nWith the growing amount of text data from social media, websites and other sources, NLP is becoming a key tool to gain insights and automate tasks like analyzing text or translating languages..\nIntroduction\nNLP is used by many applications that use language, such as text\ntranslation, voice recognition, text summarization and chatbots.\nYou may have used some of these applications yourself, such as voice-operated GPS systems, digital assistants, speech-to-text software and customer service bots.",
+      "heading": null,
+      "page_start": 1,
+      "page_end": 6,
+      "child_index": 1,
+      "parent_index": 0
+    },
+    {
+      "child_id": "parent_0_child_2",
+      "parent_id": "parent_0",
+      "text": "NLP also helps businesses improve their efficiency, productivity and performance by simplifying complex tasks that involve language.\n20\nIntroduction\n20\nApplications or Use cases of NLP\n1. Chatbots:\nChatbots are a form of artificial intelligence that are programmed to interact\nwith humans in such a way that they sound like humans themselves.\nDepending on the complexity of the chatbots, they can either just respond to specific keywords or they can even hold full conversations that make it tough to distinguish them from humans.\n20\nApplications or Use cases of NLP",
+      "heading": null,
+      "page_start": 1,
+      "page_end": 6,
+      "child_index": 2,
+      "parent_index": 0
+    },
+    {
+      "child_id": "parent_0_child_3",
+      "parent_id": "parent_0",
+      "text": "20\nApplications or Use cases of NLP\n2. Autocomplete in Search Engines\nHave you noticed that search engines tend to guess what you are typing and automatically complete your sentences? For example, On typing “game” in Google, you may get further suggestions for “game of thrones”, “game of life” or if you are interested in maths then “game theory”.\nAll these suggestions are provided using autocomplete that uses Natural Language Processing to guess what you want to ask.\n20",
+      "heading": null,
+      "page_start": 1,
+      "page_end": 6,
+      "child_index": 3,
+      "parent_index": 0
+    },
+    {
+      "child_id": "parent_1_child_0",
+      "parent_id": "parent_1",
+      "text": "Applications or Use cases of NLP\n3. Voice Assistants\nThese days voice assistants are all the rage! Whether its Siri, Alexa, or Google Assistant, almost everyone uses one of these to make calls, place reminders, schedule meetings, set alarms, surf the internet, etc.\nThese voice assistants have made life much easier. But how do they work? They use a complex combination of speech recognition, natural language understanding, and natural language processing to understand what humans are saying and then act on it.\n20\nApplications or Use cases of NLP\n4. Language Translator",
+      "heading": null,
+      "page_start": 7,
+      "page_end": 12,
+      "child_index": 0,
+      "parent_index": 1
+    },
+    {
+      "child_id": "parent_1_child_1",
+      "parent_id": "parent_1",
+      "text": "20\nApplications or Use cases of NLP\n4. Language Translator\nWant to translate a text from English to Hindi but don’t know Hindi? Well, Google Translate is the tool for you! While it’s not exactly 100% accurate, it is still a great tool to convert text from one language to another.\nGoogle Translate and other translation tools as well as use Sequence to\nsequence modeling that is a technique in Natural Language Processing.\n20\nApplications or Use cases of NLP\n5. Sentiment Analysis",
+      "heading": null,
+      "page_start": 7,
+      "page_end": 12,
+      "child_index": 1,
+      "parent_index": 1
+    },
+    {
+      "child_id": "parent_1_child_2",
+      "parent_id": "parent_1",
+      "text": "20\nApplications or Use cases of NLP\n5. Sentiment Analysis\nAlmost all the world is on social media these days! And companies can use sentiment analysis to understand how a particular type of user feels about a particular topic, product, etc.\nThey can use natural language processing, computational linguistics, text analysis, etc. to understand the general sentiment of the users for their products and services and find out if the sentiment is good, bad, or neutral.\n20\nApplications or Use cases of NLP\n20\nComponents of NLP\nThere are the following two components of NLP –",
+      "heading": null,
+      "page_start": 7,
+      "page_end": 12,
+      "child_index": 2,
+      "parent_index": 1
+    },
+    {
+      "child_id": "parent_1_child_3",
+      "parent_id": "parent_1",
+      "text": "20\nComponents of NLP\nThere are the following two components of NLP –\nNatural Language Understanding (NLU)\nNatural Language Understanding (NLU) helps the machine to understand and analyse human language by extracting the metadata from content such as concepts, entities, keywords, emotion, relations, and semantic roles.\nNLU mainly used in Business applications to understand the customer’s problem in both spoken and written language.\n20\nComponents of NLP\nNLU involves the following tasks –\nIt is used to map the given input into useful representation.",
+      "heading": null,
+      "page_start": 7,
+      "page_end": 12,
+      "child_index": 3,
+      "parent_index": 1
+    },
+    {
+      "child_id": "parent_1_child_4",
+      "parent_id": "parent_1",
+      "text": "It is used to map the given input into useful representation.\nIt is used to analyze different aspects of the language.\nNatural Language Generation (NLG)\nNatural Language Generation (NLG) acts as a translator that converts the computerized data into natural language representation. It mainly involves Text planning, Sentence planning, and Text Realization.\n20",
+      "heading": null,
+      "page_start": 7,
+      "page_end": 12,
+      "child_index": 4,
+      "parent_index": 1
+    },
+    {
+      "child_id": "parent_2_child_0",
+      "parent_id": "parent_2",
+      "text": "Components of NLP\nDifference between NLU and NLG:\n20\nSteps in NLP\n1. Lexical and Morphological Analysis\nLexical Analysis\nIt focuses on identifying and processing words (or lexemes) in a text. It breaks down the input text into individual tokens that are meaningful units of language such as words or phrases.\nKey tasks in Lexical analysis:\n20\nSteps in NLP\nTokenization: Process of dividing a text into smaller chunks called tokens. For example the sentence \"I love programming\" would be tokenized into [\"I\", \"love\", \"programming\"].",
+      "heading": null,
+      "page_start": 13,
+      "page_end": 18,
+      "child_index": 0,
+      "parent_index": 2
+    },
+    {
+      "child_id": "parent_2_child_1",
+      "parent_id": "parent_2",
+      "text": "Part-of-Speech Tagging: Assigning parts of speech such as noun, verb, adjective to each token in the sentence. This helps us to understand grammatical roles of words in the context.\n20\nSteps in NLP\nExample: Consider the sentence: \"I am reading a book.\"\nTokenization: Sentence is broken down into individual tokens or words:\n[\"I\", \"am\", \"reading\", \"a\", \"book\"]\nPart-of-Speech Tagging: Each token is assigned a part of speech: [\"I\" → Pronoun (PRP), \"am\" → Verb (VBP), \"reading\" → Verb (VBG), \"a\" → Article (DT), \"book\" → Noun (NN)]\n20\nSteps in NLP\nImportance of Lexical Analysis",
+      "heading": null,
+      "page_start": 13,
+      "page_end": 18,
+      "child_index": 1,
+      "parent_index": 2
+    },
+    {
+      "child_id": "parent_2_child_2",
+      "parent_id": "parent_2",
+      "text": "20\nSteps in NLP\nImportance of Lexical Analysis\nWord Identification: It breaks text into tokens which helps the system to\nunderstand individual words for further processing.\nText Simplification: It simplifies text through tokenization and stemming\nwhich improves accuracy in NLP tasks.\n20\nSteps in NLP\nMorphological Analysis\nIt deals with morphemes which are the smallest units of meaning in a word. It is important for understanding structure of words and their parts by identifying free morphemes (independent words like \"cat\") and bound morphemes (like prefixes or suffixes e.g. \"un-\" or \"-ing\").",
+      "heading": null,
+      "page_start": 13,
+      "page_end": 18,
+      "child_index": 2,
+      "parent_index": 2
+    },
+    {
+      "child_id": "parent_2_child_3",
+      "parent_id": "parent_2",
+      "text": "20",
+      "heading": null,
+      "page_start": 13,
+      "page_end": 18,
+      "child_index": 3,
+      "parent_index": 2
+    },
+    {
+      "child_id": "parent_3_child_0",
+      "parent_id": "parent_3",
+      "text": "Steps in NLP\nKey tasks in morphological analysis:\nStemming: Reducing words to their root form like \"running\" to \"run\".\nLemmatization: Converting words to their base or dictionary form considering the context like \"better\" becomes \"good\".\nImportance of Morphological Analysis\nUnderstanding Word Structure: It helps in breaking the composition of complex words.\nImproving Accuracy: It enhances accuracy of tasks such as part-of-speech tagging, syntactic parsing and machine translation.\n20\nSteps in NLP\n2. Syntactic Analysis (Parsing)",
+      "heading": null,
+      "page_start": 19,
+      "page_end": 24,
+      "child_index": 0,
+      "parent_index": 3
+    },
+    {
+      "child_id": "parent_3_child_1",
+      "parent_id": "parent_3",
+      "text": "20\nSteps in NLP\n2. Syntactic Analysis (Parsing)\nSyntactic Analysis helps in understanding how words in a sentence are arranged according to grammar rules. It ensures that the sentence follows correct grammar which makes the meaning clearer. The goal is to create a parse tree which is a diagram showing the structure of sentence.\nIt breaks the sentence into parts like the subject, verb and object and shows how these parts are connected. This helps machines understand the relationships between words in the sentence.\n20\nSteps in NLP\nKey components of syntactic analysis include:",
+      "heading": null,
+      "page_start": 19,
+      "page_end": 24,
+      "child_index": 1,
+      "parent_index": 3
+    },
+    {
+      "child_id": "parent_3_child_2",
+      "parent_id": "parent_3",
+      "text": "20\nSteps in NLP\nKey components of syntactic analysis include:\nPOS Tagging: Assigning parts of speech (noun, verb, adjective) to words in\na sentence as discussed earlier.\nAmbiguity Resolution: Handling words that have multiple meanings (e.g\n\"book\" can be a noun or a verb).\nExamples\nConsider the following sentences:\nCorrect Syntax: \"John eats an apple.\"\nIncorrect Syntax: \"Apple eats John an.\"\n20\nSteps in NLP\n3. Semantic Analysis",
+      "heading": null,
+      "page_start": 19,
+      "page_end": 24,
+      "child_index": 2,
+      "parent_index": 3
+    },
+    {
+      "child_id": "parent_3_child_3",
+      "parent_id": "parent_3",
+      "text": "Incorrect Syntax: \"Apple eats John an.\"\n20\nSteps in NLP\n3. Semantic Analysis\nSemantic Analysis focuses on understanding meaning behind words and sentences. It ensures that the text is not only grammatically correct but also logically coherent and contextually relevant.\nIt aims to understand dictionary definitions of words and their usage in context and also find whether the arrangement of words in a sentence makes logical sense.\n20\nSteps in NLP\nKey Tasks in Semantic Analysis",
+      "heading": null,
+      "page_start": 19,
+      "page_end": 24,
+      "child_index": 3,
+      "parent_index": 3
+    },
+    {
+      "child_id": "parent_3_child_4",
+      "parent_id": "parent_3",
+      "text": "20\nSteps in NLP\nKey Tasks in Semantic Analysis\nNamed Entity Recognition (NER): It identifies and classifies entities such as names of people, locations, organizations, dates and more. These entities provide important meaning in the text and help in understanding the context. For example in the sentence \"Tesla announced its new electric vehicle in California,\" NER would identify \"Tesla\" as an organization and \"California\" as a location.\n20\nSteps in NLP",
+      "heading": null,
+      "page_start": 19,
+      "page_end": 24,
+      "child_index": 4,
+      "parent_index": 3
+    },
+    {
+      "child_id": "parent_3_child_5",
+      "parent_id": "parent_3",
+      "text": "20\nSteps in NLP\nWord Sense Disambiguation (WSD): Many words have multiple meanings depending on the context in which they are used. It identifies the correct meaning of a word based on its surrounding text. For example word \"bank\" can refer to a financial institution or the side of a river. It uses context to identify which meaning applies in a given sentence which ensures that interpretation is accurate.\n20",
+      "heading": null,
+      "page_start": 19,
+      "page_end": 24,
+      "child_index": 5,
+      "parent_index": 3
+    },
+    {
+      "child_id": "parent_4_child_0",
+      "parent_id": "parent_4",
+      "text": "Steps in NLP\n4. Discourse Integration\nIt is the process of understanding how individual sentences or segments of text connect and relate to each other within a broader context. This phase ensures that the meaning of a text is consistent and coherent across multiple sentences or paragraphs. It is important for understanding long or complex texts where meaning focuses on previous statements.\n20\nSteps in NLP\nKey aspects of discourse integration:",
+      "heading": null,
+      "page_start": 25,
+      "page_end": 30,
+      "child_index": 0,
+      "parent_index": 4
+    },
+    {
+      "child_id": "parent_4_child_1",
+      "parent_id": "parent_4",
+      "text": "20\nSteps in NLP\nKey aspects of discourse integration:\nAnaphora Resolution: Anaphora refers to the use of pronouns or other references that depend on earlier parts of the text. For example in the sentence \"Taylor went to the store. She bought groceries\" pronoun \"She\" refers back to \"Taylor.\" It ensures that references like these are correctly understood by linking them to their antecedents.",
+      "heading": null,
+      "page_start": 25,
+      "page_end": 30,
+      "child_index": 1,
+      "parent_index": 4
+    },
+    {
+      "child_id": "parent_4_child_2",
+      "parent_id": "parent_4",
+      "text": "Contextual References: Many words or phrases can only be fully understood when considered in the context of following sentences. It helps in interpreting how certain words or phrases focuses on context. For example \"It was a great day\" is clearer when you know what event or situation is being discussed.\n20\nSteps in NLP\n5. Pragmatic Analysis",
+      "heading": null,
+      "page_start": 25,
+      "page_end": 30,
+      "child_index": 2,
+      "parent_index": 4
+    },
+    {
+      "child_id": "parent_4_child_3",
+      "parent_id": "parent_4",
+      "text": "20\nSteps in NLP\n5. Pragmatic Analysis\nPragmatic analysis helps in understanding the deeper meaning behind words and sentences by looking beyond their literal meanings. While semantic analysis looks at the direct meaning it considers the speaker's or writer's intentions, tone and context of the communication.\nKey tasks in pragmatic analysis:\nFigurative Meaning: Language often uses idioms or metaphors that can’t be\ntaken literally.\n20\nSteps in NLP",
+      "heading": null,
+      "page_start": 25,
+      "page_end": 30,
+      "child_index": 3,
+      "parent_index": 4
+    },
+    {
+      "child_id": "parent_4_child_4",
+      "parent_id": "parent_4",
+      "text": "taken literally.\n20\nSteps in NLP\nUnderstanding Intentions: Sometimes language doesn’t mean what it says literally. For example when someone asks \"Can you pass the salt?\" it's not about ability but a polite request. It helps to understand true intention behind such expressions.\n\"Hello! What time is it?\" here it might be a straightforward request for the current time but it could also imply concern about being late.\n20\nSteps in NLP\n20\nFinding the Structure of Words: Words and Their Components.\nWords are defined in most languages as the smallest linguistic units that can",
+      "heading": null,
+      "page_start": 25,
+      "page_end": 30,
+      "child_index": 4,
+      "parent_index": 4
+    },
+    {
+      "child_id": "parent_4_child_5",
+      "parent_id": "parent_4",
+      "text": "Words are defined in most languages as the smallest linguistic units that can\nform acomplete utterance by themselves.\nThe minimal parts of words that deliver aspects of meaning to them are called morphemes.\nTokens: Suppose, for a moment, that words in English are delimited only by whitespace and punctuation (the marks, such as full stop, comma, and brackets)\nExample: Will you read the newspaper? Will you read it? I won’t read it. If we confront our assumption with insights from syntax, we notice twowords here: words newspaper and won’t\n20",
+      "heading": null,
+      "page_start": 25,
+      "page_end": 30,
+      "child_index": 5,
+      "parent_index": 4
+    },
+    {
+      "child_id": "parent_5_child_0",
+      "parent_id": "parent_5",
+      "text": "Finding the Structure of Words: Words and Their Components.\nBeing a compound word, newspaper has an interesting derivational structure. In writing, newspaper and the associated concept is distinguished from the isolated news and paper.\nThe structure of won’t could be parsed as will followed by not.\nIn English, this kind of tokenization and normalization may apply to just a limited set of cases, but in other languages, these phenomena have to be treated different way\n20\nLexemes",
+      "heading": null,
+      "page_start": 31,
+      "page_end": 36,
+      "child_index": 0,
+      "parent_index": 5
+    },
+    {
+      "child_id": "parent_5_child_1",
+      "parent_id": "parent_5",
+      "text": "20\nLexemes\nBy the term word, we often denote not just the one linguistic form in the given context but also the concept behind the form and the set of alternative forms that can express it.\nSuch sets are called lexemes or lexical items, and they constitute the\nlexicon of a language.\nLexemes can be divided by their behaviour into the lexical categories of verbs, nouns, adjectives, conjunctions or other parts of speech. The citation form of a lexeme, by which it is commonly identified, is also called its lemma.\n20\nLexemes",
+      "heading": null,
+      "page_start": 31,
+      "page_end": 36,
+      "child_index": 1,
+      "parent_index": 5
+    },
+    {
+      "child_id": "parent_5_child_2",
+      "parent_id": "parent_5",
+      "text": "20\nLexemes\nWhen we convert a word into its other forms, such as turning the singular mouse into the plural mice or mouses, we say we inflect the lexeme.\nExample: Did you see him? I didn’t see him. I didn’t see anyone Example presents the problem of tokenization of didn’t and the investigation of the internal structure of anyone.\tThe difficulty with the definition of what counts as a word need not pose a problem for the syntactic description if we understand no one as two closely connected tokens treated as one fixed element\n40\nMorphemes & Morphology",
+      "heading": null,
+      "page_start": 31,
+      "page_end": 36,
+      "child_index": 2,
+      "parent_index": 5
+    },
+    {
+      "child_id": "parent_5_child_3",
+      "parent_id": "parent_5",
+      "text": "40\nMorphemes & Morphology\nThese components are usually called segments or morphs.\nMorphology:\nMorphology is the domain of linguistics that analyses the internal structure of words.\nMorphological analysis – exploring the structure of words\nWords are built up of minimal meaningful elements called morphemes: played = play-ed cats = cat-s unfriendly = un-friend-ly\n40\nProblemsMorphological Processing\nInflectional morphology: inflected forms are constructed from base\nforms and inflectional Affixes.\nInflection relates different forms of the same word Lemma Singular Plural\nCat cat Cats",
+      "heading": null,
+      "page_start": 31,
+      "page_end": 36,
+      "child_index": 3,
+      "parent_index": 5
+    },
+    {
+      "child_id": "parent_5_child_4",
+      "parent_id": "parent_5",
+      "text": "Cat cat Cats\nMouse mouse mice\n40\nProblemsMorphological Processing\nDerivational morphology: words are constructed from roots (or\nstems) and derivational affixes:\ninter+national = international\ninternational+ize = internationalize\ninternationalize+ation = internationalization\nThe simplest morphological process concatenates morphs one by one, as in disagreement-s, where agree is a free lexical morpheme and the other elements are bound grammatical morphemes contributing some partial meaning to the whole word.\n40",
+      "heading": null,
+      "page_start": 31,
+      "page_end": 36,
+      "child_index": 4,
+      "parent_index": 5
+    },
+    {
+      "child_id": "parent_6_child_0",
+      "parent_id": "parent_6",
+      "text": "Typology\nTypology divides languages into groups by characterizing the\nprevalent morphological phenomena in those languages.\nIt can consider various criteria, and during the history of linguistics, different classifications have been proposed.\nLet us outline the typology that is based on quantitative relations\nbetween words, their morphemes, and their features\n40\nTypology\nIsolating, or analytic, languages include no or relatively few words that would comprise more than one morpheme (typical members are Chinese, Vietnamese, and Thai; analytic tendencies are also found in English).",
+      "heading": null,
+      "page_start": 37,
+      "page_end": 42,
+      "child_index": 0,
+      "parent_index": 6
+    },
+    {
+      "child_id": "parent_6_child_1",
+      "parent_id": "parent_6",
+      "text": "Synthetic languages can combine more morphemes in one word and\nare further divided into agglutinative and fusional languages.\nAgglutinative languages have morphemes associated with only a single function at a time (as in Korean, Japanese, Finnish, and Tamil, etc.)\n40\nTypology\nFusional languages are defined by their feature-per-morpheme ratio\nhigher than one (as in Arabic, Czech, Latin, Sanskrit, German, etc.).\nIn accordance with the notions about word formation processes mentioned earlier, we can also find out using concatenative and nonlinear:",
+      "heading": null,
+      "page_start": 37,
+      "page_end": 42,
+      "child_index": 1,
+      "parent_index": 6
+    },
+    {
+      "child_id": "parent_6_child_2",
+      "parent_id": "parent_6",
+      "text": "Concatenative languages linking morphs and morphemes one after another\n40\nMorphological Typology\nMorphological typology is a way of classifying the languages of the world\nthat groups languages according to their common morphological structures.\nThe field organizes languages on the basis of how those languages form words by combining morphemes.\nThe morphological typology classifies languages into two broad classes like\nsynthetic languages and analytical languages.\nThe synthetic class is then further sub classified as either agglutinative\nlanguages or fusional languages.\n40",
+      "heading": null,
+      "page_start": 37,
+      "page_end": 42,
+      "child_index": 2,
+      "parent_index": 6
+    },
+    {
+      "child_id": "parent_6_child_3",
+      "parent_id": "parent_6",
+      "text": "languages or fusional languages.\n40\nMorphological Typology\nAnalytic languages contain very little inflection, instead relying on features\nlike word order and auxiliary words to convey meaning.\nSynthetic languages, ones that are not analytic, are divided into two categories: agglutinative and fusional languages.\nAgglutinative languages rely primarily on discrete particles(prefixes, suffixes, and infixes) for inflection, ex: inter+national = international, international+ize = internationalize.\n40\nThank You\n40",
+      "heading": null,
+      "page_start": 37,
+      "page_end": 42,
+      "child_index": 3,
+      "parent_index": 6
+    },
+    {
+      "child_id": "parent_7_child_0",
+      "parent_id": "parent_7",
+      "text": "Course Title –NATURAL LANGUAGE PROCESSING\nTopic Title: REGULAR EXPRESSIONS, TEXT\nNORMALIZATION\nPresenter’s Name – B. Lakshmi Prasanna\nPresenter’s ID – IARE10706 Department Name – IT\n1\nCOURSE OVERVIEW:\nThis  course  is  a  study  of  computing  systems  that  can  process,\nunderstand, or communicate in human language.\nThe primary focus of the course will be on understanding various NLP tasks  and  algorithms  for  effectively  solving  these  problems,  and methods for evaluating their performance.",
+      "heading": null,
+      "page_start": 43,
+      "page_end": 48,
+      "child_index": 0,
+      "parent_index": 7
+    },
+    {
+      "child_id": "parent_7_child_1",
+      "parent_id": "parent_7",
+      "text": "This  course  is  intended  as  a  theoretical  and  methodological introduction to the most widely used and effective current techniques, strategies and toolkits for natural language processing, with a primary focus on those available in the Python programming language.\nThe students will try to learn\nI. Natural language Processing for analyzing words based on\nMorphology and CORPUS.\nII. Probability theory with Linguistic essentials such as syntactic and\nsemantic analysis of text.\nIII. The applications of statistical learning methods and cutting-edge research models from deep learning.",
+      "heading": null,
+      "page_start": 43,
+      "page_end": 48,
+      "child_index": 1,
+      "parent_index": 7
+    },
+    {
+      "child_id": "parent_7_child_2",
+      "parent_id": "parent_7",
+      "text": "COURSES OBJECTIVES:\n3\nAt the end of the course students should be able to\nCO1 Remember the knowledge of complex language behavior in\nterms of phonetics, morphology\nCO2 Understand the semantics and pragmatics for text processing.\nCO3 Apply the CORPUS linguistics to compile and analyze the texts based on digestive games.\nIII. COURSE OUTCOMES\n4\nCO4 Understand various statistical approaches to machine\ntranslation for a given natural language.\nCO5 Apply Part-of-speech (POS) tagging for a given natural language and suitable modeling technique based on the structure",
+      "heading": null,
+      "page_start": 43,
+      "page_end": 48,
+      "child_index": 2,
+      "parent_index": 7
+    },
+    {
+      "child_id": "parent_7_child_3",
+      "parent_id": "parent_7",
+      "text": "CO6 The art algorithms and techniques for text-based processing of\nnatural language with respect to morphology\n5\nMODULE II: REGULAR EXPRESSIONS, TEXT NORMALIZATION\nRegular Expressions, patterns, words, Corpora, Text normalization, Minimum edit distance, Regular Language and FSAs, Raw Text Extraction and Tokenization, Extracting Terms from Tokens, Normalization.\n6",
+      "heading": null,
+      "page_start": 43,
+      "page_end": 48,
+      "child_index": 3,
+      "parent_index": 7
+    },
+    {
+      "child_id": "parent_8_child_0",
+      "parent_id": "parent_8",
+      "text": "Regular Expressions\nA regular expression (regex) is a sequence of characters that defines a search pattern. It is mainly used for pattern matching in strings, such as finding, replacing, or validating text. Regex is supported in almost every programming language, including Python, Java, C++ and JavaScript.\nBelow image shows an example of a regular expression and explains its parts, helping you understand how filenames or patterns can be matched effectively.\n7\n8\nImportance of Regular Expression",
+      "heading": null,
+      "page_start": 49,
+      "page_end": 54,
+      "child_index": 0,
+      "parent_index": 8
+    },
+    {
+      "child_id": "parent_8_child_1",
+      "parent_id": "parent_8",
+      "text": "7\n8\nImportance of Regular Expression\nEfficient Pattern Matching: Quickly search for specific patterns in text or data without manual checking.\nData Validation: Validate inputs like email addresses, phone numbers, URLs, and passwords.\nText Manipulation: Perform search-and-replace operations across files or\ndatasets effectively.\nAutomation in Analytics and Tools: Used in tools like Google Analytics for URL matching and filtering.\nCross-Platform Support: Works across programming languages and editors such as Python, Java, Sublime Text, and Notepad++.\n9\nCommon Elements Used in Regular Expressions",
+      "heading": null,
+      "page_start": 49,
+      "page_end": 54,
+      "child_index": 1,
+      "parent_index": 8
+    },
+    {
+      "child_id": "parent_8_child_2",
+      "parent_id": "parent_8",
+      "text": "9\nCommon Elements Used in Regular Expressions\nRepeaters (  *, +, and { } ): Repeaters specify how many times the preceding character or group should appear.\nAsterisk symbol (*): Matches the preceding character 0 or more times.\nThe Plus symbol (+): Matches the preceding character 1 or more\ntimes.\nThe curly braces { … }: Defines an exact or range of repetitions.\nWildcard (.): Matches any single character except a newline.\n10\nOptional character (?): Matches 0 or 1 occurrence of the\npreceding character.\nThe caret ( ^ ) symbol: Ensures the match starts at the beginning of the string.",
+      "heading": null,
+      "page_start": 49,
+      "page_end": 54,
+      "child_index": 2,
+      "parent_index": 8
+    },
+    {
+      "child_id": "parent_8_child_3",
+      "parent_id": "parent_8",
+      "text": "The dollar ( $ ) symbol: Ensures the match ends at the end of the\nstring.\n11\nPatterns\n12",
+      "heading": null,
+      "page_start": 49,
+      "page_end": 54,
+      "child_index": 3,
+      "parent_index": 8
+    },
+    {
+      "child_id": "parent_9_child_0",
+      "parent_id": "parent_9",
+      "text": "Types of NLP patterns\nLexical Analysis: It focuses on identifying and processing words (or lexemes) in a text. It breaks down the input text into individual tokens that are meaningful units of language such as words or phrases.\nKey tasks in Lexical analysis:\nTokenization: Process of dividing a text into smaller chunks called tokens. For example the sentence \"I love programming\" would be tokenized into [\"I\", \"love\", \"programming\"].",
+      "heading": null,
+      "page_start": 55,
+      "page_end": 60,
+      "child_index": 0,
+      "parent_index": 9
+    },
+    {
+      "child_id": "parent_9_child_1",
+      "parent_id": "parent_9",
+      "text": "Part-of-Speech Tagging: Assigning parts of speech such as noun, verb, adjective to each token in the sentence. This helps us to understand grammatical roles of words in the context.\n13\nMorphological Analysis:\nIt deals with morphemes which are the smallest units of meaning in a word. It is important for understanding structure of words and their parts by identifying free morphemes (independent words like \"cat\") and bound morphemes (like prefixes or suffixes e.g. \"un-\" or \"-ing\").\nKey tasks in morphological analysis:",
+      "heading": null,
+      "page_start": 55,
+      "page_end": 60,
+      "child_index": 1,
+      "parent_index": 9
+    },
+    {
+      "child_id": "parent_9_child_2",
+      "parent_id": "parent_9",
+      "text": "Key tasks in morphological analysis:\nStemming: Reducing words to their root form like \"running\" to \"run\". Lemmatization: Converting words to their base or dictionary form considering the\ncontext like \"better\" becomes \"good\".\n14\nSyntactic Analysis (Parsing):\nSyntactic Analysis helps in understanding how words in a sentence are arranged according to grammar rules. It ensures that the sentence follows correct grammar which makes the meaning clearer. The goal is to create a parse tree which is a diagram showing the structure of sentence.",
+      "heading": null,
+      "page_start": 55,
+      "page_end": 60,
+      "child_index": 2,
+      "parent_index": 9
+    },
+    {
+      "child_id": "parent_9_child_3",
+      "parent_id": "parent_9",
+      "text": "It breaks the sentence into parts like the subject, verb and object and shows how these parts are connected. This helps machines understand the relationships between words in the sentence.\n15\nSemantic Analysis\nIt focuses on understanding meaning behind words and sentences. It ensures that the text is not only grammatically correct but also logically coherent and contextually relevant. It aims to understand dictionary definitions of words and their usage in context and also find whether the arrangement of words in a sentence makes logical sense.\n16\nDiscourse Integration",
+      "heading": null,
+      "page_start": 55,
+      "page_end": 60,
+      "child_index": 3,
+      "parent_index": 9
+    },
+    {
+      "child_id": "parent_9_child_4",
+      "parent_id": "parent_9",
+      "text": "16\nDiscourse Integration\nIt is the process of understanding how individual sentences or segments of text connect and relate to each other within a broader context. This phase ensures that the meaning of a text is consistent and coherent across multiple sentences or paragraphs.\nIt is important for understanding long or complex texts where meaning focuses on previous statements.\n17\nPragmatic Analysis",
+      "heading": null,
+      "page_start": 55,
+      "page_end": 60,
+      "child_index": 4,
+      "parent_index": 9
+    },
+    {
+      "child_id": "parent_9_child_5",
+      "parent_id": "parent_9",
+      "text": "17\nPragmatic Analysis\nPragmatic analysis helps in understanding the deeper meaning behind words and sentences by looking beyond their literal meanings. While semantic analysis looks at the direct meaning it considers the speaker's or writer's intentions, tone and context of the communication.\n18",
+      "heading": null,
+      "page_start": 55,
+      "page_end": 60,
+      "child_index": 5,
+      "parent_index": 9
+    },
+    {
+      "child_id": "parent_10_child_0",
+      "parent_id": "parent_10",
+      "text": "words\nWords are the fundamental units of text, processed through steps\nlike tokenization (splitting into words)\nand preprocessing (lowercasing, removing stopwords) to be understood numerically via techniques like Bag of Words, Word Embeddings (Word2Vec, GloVe), and advanced models like BERT, enabling tasks such as sentiment analysis, translation, and named entity recognition by capturing meaning, context, and relationships\n19\nCorpora",
+      "heading": null,
+      "page_start": 61,
+      "page_end": 66,
+      "child_index": 0,
+      "parent_index": 10
+    },
+    {
+      "child_id": "parent_10_child_1",
+      "parent_id": "parent_10",
+      "text": "A corpus is a collection of authentic text or audio organized into datasets. Authentic here means text written or audio spoken by a native of the language or dialect. A corpus can be made up of everything from newspapers, novels, recipes, radio broadcasts to television shows, movies, and tweets. In natural language processing, a corpus contains text and speech data that can be used to train AI and machine learning systems",
+      "heading": null,
+      "page_start": 61,
+      "page_end": 66,
+      "child_index": 1,
+      "parent_index": 10
+    },
+    {
+      "child_id": "parent_10_child_2",
+      "parent_id": "parent_10",
+      "text": ". If a user has a specific problem or objective they want to address, they’ll need a collection of data that supports, or at least is a representation of, what they’re looking to achieve with machine learning and NLP.",
+      "heading": null,
+      "page_start": 61,
+      "page_end": 66,
+      "child_index": 2,
+      "parent_index": 10
+    },
+    {
+      "child_id": "parent_10_child_3",
+      "parent_id": "parent_10",
+      "text": "20\nText normalization\nText normalization is a very important and integral step in Natural Language processing. It is used in speech recognition, text-to-speech, spam email identification, and many other applications of NLP. Consider the words: \"collection\", \"collective\",\"collect\", and \"collectively\".These words are different forms of the base word \"collect\".",
+      "heading": null,
+      "page_start": 61,
+      "page_end": 66,
+      "child_index": 3,
+      "parent_index": 10
+    },
+    {
+      "child_id": "parent_10_child_4",
+      "parent_id": "parent_10",
+      "text": "We take the base form of a word and use it in its random states. It is important to remove this randomness for our computers as they are not as good as us at handling this. Text normalization is applied to raw text to reduce this randomness.\n21\n22\nMinimum edit distance\n23\nRegular Language\nRegular languages are the class of languages that can be represented using finite automata, regular expressions, or regular grammar. These languages have predictable patterns and are computationally efficient to recognize.\nProperties of Regular Languages\n1. Closure Properties",
+      "heading": null,
+      "page_start": 61,
+      "page_end": 66,
+      "child_index": 4,
+      "parent_index": 10
+    },
+    {
+      "child_id": "parent_10_child_5",
+      "parent_id": "parent_10",
+      "text": "Properties of Regular Languages\n1. Closure Properties\nRegular languages are closed under operations like union,\nconcatenation, and Kleene star.\n24",
+      "heading": null,
+      "page_start": 61,
+      "page_end": 66,
+      "child_index": 5,
+      "parent_index": 10
+    },
+    {
+      "child_id": "parent_11_child_0",
+      "parent_id": "parent_11",
+      "text": "2. Finite Automata:\nEvery regular language can be recognized by a finite automaton (DFA or\nNFA).\n3. Decision Problems:\nProblems like membership testing, emptiness, and equivalence can be\nsolved for regular languages.\n25\nFSA(Finite State Automata)",
+      "heading": null,
+      "page_start": 67,
+      "page_end": 72,
+      "child_index": 0,
+      "parent_index": 11
+    },
+    {
+      "child_id": "parent_11_child_1",
+      "parent_id": "parent_11",
+      "text": "solved for regular languages.\n25\nFSA(Finite State Automata)\nFinite state automata (deterministic and non-deterministic finite automata) provide decisions regarding the acceptance and rejection of a string while transducers provide some output for a given input. Thus the two machines are quite useful in language processing tasks. Finite state automata are useful in deciding whether a given word belongs to a particular language or not.\n26\nRaw Text Extraction and Tokenization",
+      "heading": null,
+      "page_start": 67,
+      "page_end": 72,
+      "child_index": 1,
+      "parent_index": 11
+    },
+    {
+      "child_id": "parent_11_child_2",
+      "parent_id": "parent_11",
+      "text": "26\nRaw Text Extraction and Tokenization\nText extraction  refer to extracting the raw textual content from input data by removing irrelevant information like formatting, metadata and other non-text elements. The goal is to convert the text into the required encoding for natural language processing. The exact process depends on the formats of the available data within an organization, such as static data from PDFs, HTML pages or plain text files, or a continuous stream of data.\n27",
+      "heading": null,
+      "page_start": 67,
+      "page_end": 72,
+      "child_index": 2,
+      "parent_index": 11
+    },
+    {
+      "child_id": "parent_11_child_3",
+      "parent_id": "parent_11",
+      "text": "27\nTokenization is a fundamental step in Natural Language Processing (NLP). It involves dividing a Textual input into smaller units known as tokens. These tokens can be in the form of words, characters, sub-words, or sentences. It helps in improving interpretability of text by different models\nTokens: Words or Sub-words in the context of natural language processing. Example: A word is a token in a sentence, A character is a token in a word, etc.\n28\n29\nExtracting Terms from Tokens",
+      "heading": null,
+      "page_start": 67,
+      "page_end": 72,
+      "child_index": 3,
+      "parent_index": 11
+    },
+    {
+      "child_id": "parent_11_child_4",
+      "parent_id": "parent_11",
+      "text": "28\n29\nExtracting Terms from Tokens\nExtracting terms from tokens in NLP means identifying meaningful words or phrases (terms) after breaking text into smaller units (tokens) using methods like space splitting or advanced tokenizers (e.g., spaCy) and then applying techniques such as Keyword Extraction (TextRank, TF-IDF) or Named Entity Recognition (NER) to find important concepts, entities, or keywords for analysis, sentiment, or information retrieval\n30",
+      "heading": null,
+      "page_start": 67,
+      "page_end": 72,
+      "child_index": 4,
+      "parent_index": 11
+    },
+    {
+      "child_id": "parent_12_child_0",
+      "parent_id": "parent_12",
+      "text": "Normalization\nNormalization in NLP is basically about cleaning and standardizing text so the computer doesn’t get confused by different ways of writing the same thing.\nHere are some of the key NLP techniques:\n1. Text Processing and Preprocessing\nTokenization: Dividing text into smaller units, such as words or sentences.\nStemming and Lemmatization: Reducing words to their base or root\nforms.\n31\n2. Syntax and Parsing\nPart-of-Speech (POS) Tagging: Assigning parts of speech to each\nword in a sentence (e.g., noun, verb, adjective).\nDependency Parsing: Analyzing the grammatical structure of a",
+      "heading": null,
+      "page_start": 73,
+      "page_end": 78,
+      "child_index": 0,
+      "parent_index": 12
+    },
+    {
+      "child_id": "parent_12_child_1",
+      "parent_id": "parent_12",
+      "text": "Dependency Parsing: Analyzing the grammatical structure of a\nsentence to identify relationships between words.\nConstituency Parsing: Breaking down a sentence into its constituent parts or phrases (e.g., noun phrases, verb phrases).\n32\n3. Semantic Analysis\nNamed Entity Recognition (NER): Identifying and classifying entities\nin text, such as names of people organizations, locations, dates, etc.\nWord Sense Disambiguation (WSD): Determining which meaning of\na word is used in a given context.",
+      "heading": null,
+      "page_start": 73,
+      "page_end": 78,
+      "child_index": 1,
+      "parent_index": 12
+    },
+    {
+      "child_id": "parent_12_child_2",
+      "parent_id": "parent_12",
+      "text": "a word is used in a given context.\nCoreference Resolution: Identifying when different words refer to the same entity in a text (e.g., \"he\" refers to \"John\").\n33\nText Classification in NLP\nSentiment Analysis: Determining the sentiment or emotional tone\nexpressed in a text (e.g., positive, negative, neutral).\nTopic Modeling: Identifying topics or themes within a large collection\nof documents.\nSpam Detection: Classifying text as spam or not spam.\n34\nThank You\n35\nCourse Title –NATURAL LANGUAGE PROCESSING\nTopic Title: 3 N-GRAM LANGUAGE MODELS\nPresenter’s Name – B. Lakshmi Prasanna",
+      "heading": null,
+      "page_start": 73,
+      "page_end": 78,
+      "child_index": 2,
+      "parent_index": 12
+    },
+    {
+      "child_id": "parent_12_child_3",
+      "parent_id": "parent_12",
+      "text": "Topic Title: 3 N-GRAM LANGUAGE MODELS\nPresenter’s Name – B. Lakshmi Prasanna\nPresenter’s ID – IARE10706\nDepartment Name – IT\n1",
+      "heading": null,
+      "page_start": 73,
+      "page_end": 78,
+      "child_index": 3,
+      "parent_index": 12
+    },
+    {
+      "child_id": "parent_13_child_0",
+      "parent_id": "parent_13",
+      "text": "COURSE OVERVIEW:\nThis  course  is  a  study  of  computing  systems  that  can  process,\nunderstand, or communicate in human language.\nThe primary focus of the course will be on understanding various NLP tasks  and  algorithms  for  effectively  solving  these  problems,  and methods for evaluating their performance.\nThis  course  is  intended  as  a  theoretical  and  methodological introduction to the most widely used and effective current techniques, strategies and toolkits for natural language processing, with a primary focus on those available in the Python programming language.",
+      "heading": null,
+      "page_start": 79,
+      "page_end": 84,
+      "child_index": 0,
+      "parent_index": 13
+    },
+    {
+      "child_id": "parent_13_child_1",
+      "parent_id": "parent_13",
+      "text": "The students will try to learn\nI. Natural language Processing for analyzing words based on\nMorphology and CORPUS.\nII. Probability theory with Linguistic essentials such as syntactic and\nsemantic analysis of text.\nIII. The applications of statistical learning methods and cutting-edge\nresearch models from deep learning.\nCOURSES OBJECTIVES:\n3\nAt the end of the course students should be able to\nCO1 Remember the knowledge of complex language behavior in\nterms of phonetics, morphology\nCO2 Understand the semantics and pragmatics for text processing.",
+      "heading": null,
+      "page_start": 79,
+      "page_end": 84,
+      "child_index": 1,
+      "parent_index": 13
+    },
+    {
+      "child_id": "parent_13_child_2",
+      "parent_id": "parent_13",
+      "text": "CO2 Understand the semantics and pragmatics for text processing.\nCO3 Apply the CORPUS linguistics to compile and analyze the texts\nbased on digestive games.\nIII. COURSE OUTCOMES\n4\nIII. COURSE OUTCOMES\nCO4 Understand various statistical approaches to machine\ntranslation for a given natural language.\nCO5 Apply Part-of-speech (POS) tagging for a given natural\nlanguage and suitable modeling technique based on the structure\nCO6 The art algorithms and techniques for text-based processing of\nnatural language with respect to morphology\n5\nN-GRAM LANGUAGE MODELS",
+      "heading": null,
+      "page_start": 79,
+      "page_end": 84,
+      "child_index": 2,
+      "parent_index": 13
+    },
+    {
+      "child_id": "parent_13_child_3",
+      "parent_id": "parent_13",
+      "text": "natural language with respect to morphology\n5\nN-GRAM LANGUAGE MODELS\nN-grams, Evaluating language models, Generalization and zeros, smoothing, kneser-Ney smoothing, huge language models and stupid back off. Perplexity’s relation to entropy.\nInflection, Derivational Morphology, Finite-State Morphological Parsing, The Lexicon and Morphotactics, Morphological Parsing with Finite State Transducers, Combining FST Lexicon and rules.\n6\nN-grams",
+      "heading": null,
+      "page_start": 79,
+      "page_end": 84,
+      "child_index": 3,
+      "parent_index": 13
+    },
+    {
+      "child_id": "parent_13_child_4",
+      "parent_id": "parent_13",
+      "text": "6\nN-grams\nN-gram is a contiguous sequence of 'N' items like words or characters from text or speech. The items can be letters, words or base pairs according to the application. The value of ’N’ determines the order of the N-gram.\nThey are fundamental concept used in various NLP tasks such as\nlanguage modeling, text classification, machine translation and more.\n7",
+      "heading": null,
+      "page_start": 79,
+      "page_end": 84,
+      "child_index": 4,
+      "parent_index": 13
+    },
+    {
+      "child_id": "parent_14_child_0",
+      "parent_id": "parent_14",
+      "text": "N-grams\nThey are of various types based on value of n:\nUnigrams(Unigrams (1-grams) are single words\nBigrams (2-grams) are pairs of consecutive words\nTrigrams (3-grams) are triplets of consecutive words\n8\nN-gram Language Model\nN-gram models predict the probability of a word given the\nprevious n−1 words.\nExample: For the phrase: “This article is on…”, if we want to predict the\nlikelihood of “NLP” as the next word:\np(\"NLP\"∣\"This\",\"article\",\"is\",\"on\")\nChain Rule of probability\nMarkov Assumption\n9\nEvaluating Language Models",
+      "heading": null,
+      "page_start": 85,
+      "page_end": 90,
+      "child_index": 0,
+      "parent_index": 14
+    },
+    {
+      "child_id": "parent_14_child_1",
+      "parent_id": "parent_14",
+      "text": "Chain Rule of probability\nMarkov Assumption\n9\nEvaluating Language Models\nEntropy: Measures the uncertainty or information content in a distribution. It\nalways give non negative.\nH(p)=∑ p(x)⋅(−log(p(x)))\nCross-Entropy: Measures how well a probability distribution predicts a sample\nfrom test data. Usually ≥ entropy; reflects model “surprise” at the test data.\nH(p,q)=−∑ p(x)log(q(x))\nPerplexity: Exponential of cross-entropy; lower values indicate a better model.\n𝑁\n𝑊 =\n𝛱𝑁\n1\n𝑖=1 𝑝 𝜔𝑖ȁ𝜔𝜄ሶ−1\n10\nN-grams in NLP\nN-grams are used in NLP for:",
+      "heading": null,
+      "page_start": 85,
+      "page_end": 90,
+      "child_index": 1,
+      "parent_index": 14
+    },
+    {
+      "child_id": "parent_14_child_2",
+      "parent_id": "parent_14",
+      "text": "𝑁\n𝑊 =\n𝛱𝑁\n1\n𝑖=1 𝑝 𝜔𝑖ȁ𝜔𝜄ሶ−1\n10\nN-grams in NLP\nN-grams are used in NLP for:\nCapturing Context and Semantics: N-grams help understand meaning by\nlooking at how words appear together\nImproving Language Models: N-grams help systems predict the next word\nmore accurately.\nEnhancing Text Prediction: N-grams suggest the next word to make typing\nfaster.\nInformation Retrieval: N-grams help search engines find and rank relevant\ninformation.\n11\nGeneralization and Zeros in N-grams",
+      "heading": null,
+      "page_start": 85,
+      "page_end": 90,
+      "child_index": 2,
+      "parent_index": 14
+    },
+    {
+      "child_id": "parent_14_child_3",
+      "parent_id": "parent_14",
+      "text": "information.\n11\nGeneralization and Zeros in N-grams\nGeneralization in the field of natural language processing (NLP) is the ability of models to efficiently make predictions on previously unseen data based on what it has learned from the training data.\nGeneralization is typically most closely related to two main factors, overfitting or\nunderfitting conditions.",
+      "heading": null,
+      "page_start": 85,
+      "page_end": 90,
+      "child_index": 3,
+      "parent_index": 14
+    },
+    {
+      "child_id": "parent_14_child_4",
+      "parent_id": "parent_14",
+      "text": "underfitting conditions.\nThe concept of zeros in NLP refers to the presence of zero-valued words in the corpus which are words that do not appear in a given input text. The presence of zeros has a significant impact on the performance of models in NLP generalization.\n12\nGeneralization in N-grams\nWays to improve generalization in NLP:",
+      "heading": null,
+      "page_start": 85,
+      "page_end": 90,
+      "child_index": 4,
+      "parent_index": 14
+    },
+    {
+      "child_id": "parent_14_child_5",
+      "parent_id": "parent_14",
+      "text": "12\nGeneralization in N-grams\nWays to improve generalization in NLP:\nIncorporating Inductive Biases into Model Learning:Inductive biases are assumptions that  a model makes about the structure of the data it is trained on. It help a model to learn more efficiently by guiding it towards solutions that are more likely to be correct given the data it has seen so far.\nRegularization:a common technique that can be used to prevent overfitting in general where the model performs well on the training data but poorly on new data.",
+      "heading": null,
+      "page_start": 85,
+      "page_end": 90,
+      "child_index": 5,
+      "parent_index": 14
+    },
+    {
+      "child_id": "parent_14_child_6",
+      "parent_id": "parent_14",
+      "text": "Data Augmentation:involves generating additional training data by applying random\ntransformations to the existing training data.\n“The dog sat on the mat” + \"The cat slept in the bed”\n\"The dog sat on the mat, while the cat slept in the bed.\"\n13",
+      "heading": null,
+      "page_start": 85,
+      "page_end": 90,
+      "child_index": 6,
+      "parent_index": 14
+    },
+    {
+      "child_id": "parent_15_child_0",
+      "parent_id": "parent_15",
+      "text": "Generalization in N-grams\nDomain Adaptation:to adapt models trained on one type of data called the source domain to a different type of data under the target domain such that model can be made more flexible and capable of performing well on a wider range of data.\nTransfer Learning:involves the use of knowledge and representations learned by\na pre-trained model on one task and applying them to a different but related task.\n14\nSmoothing for N-grams",
+      "heading": null,
+      "page_start": 91,
+      "page_end": 96,
+      "child_index": 0,
+      "parent_index": 15
+    },
+    {
+      "child_id": "parent_15_child_1",
+      "parent_id": "parent_15",
+      "text": "14\nSmoothing for N-grams\nWhen working with N-grams, one of the major challenges is data sparsity especially with higher-order N-grams like 4-grams or 5-grams. As the value of N increases the number of possible N-grams grows exponentially and many of them may not appear in the training data resulting in zero probabilities for unseen sequences.\nTo resolve this we use Laplace Smoothing also known as Additive Smoothing. It adds a constant (typically 1) to each count ensuring that no N-gram has a zero probability even if it was not seen in the training set.\nSmoothed Count = \tcount+1",
+      "heading": null,
+      "page_start": 91,
+      "page_end": 96,
+      "child_index": 1,
+      "parent_index": 15
+    },
+    {
+      "child_id": "parent_15_child_2",
+      "parent_id": "parent_15",
+      "text": "Smoothed Count = \tcount+1\ntotal N−grams + vocab size\nThis ensures that even N-grams that never appeared in the training data will\nhave a non-zero probability.\n15\nKneser-Ney Smoothing\nKneser-Ney smoothing is one of the most sophisticated and widely used discounting techniques. It extends absolute discounting by adjusting not only the observed n-gram probabilities but also the back-off distribution.\n𝑃𝐾𝑁(𝑤𝑛ȁ 𝑤𝑛−1 , 𝑤𝑛−2\n,…)=\nmax(𝑐 𝑤\t−𝐷,0)\n𝑛\nc(𝑤𝑛−1,𝑤𝑛−2,… )\n𝐾𝑁\t𝑛\t𝑛−1\n+λ 𝑃\t(𝑤 ∣ 𝑤\t,…)",
+      "heading": null,
+      "page_start": 91,
+      "page_end": 96,
+      "child_index": 2,
+      "parent_index": 15
+    },
+    {
+      "child_id": "parent_15_child_3",
+      "parent_id": "parent_15",
+      "text": ",…)=\nmax(𝑐 𝑤\t−𝐷,0)\n𝑛\nc(𝑤𝑛−1,𝑤𝑛−2,… )\n𝐾𝑁\t𝑛\t𝑛−1\n+λ 𝑃\t(𝑤 ∣ 𝑤\t,…)\nIt is a unique in that it takes into account the diversity of contexts in which a word appears. It effectively balances the probability estimates across both frequent and rare n-grams, making it particularly effective for handling rare events.\n16\nStupid Back off Method in N-gram\nN-gram stupid backoff is an efficient NLP technique for language modeling, especially with huge datasets like web text, that predicts word probabilities by \"backing off\" to shorter n-grams (e.g., from trigram to bigram, then unigram)",
+      "heading": null,
+      "page_start": 91,
+      "page_end": 96,
+      "child_index": 3,
+      "parent_index": 15
+    },
+    {
+      "child_id": "parent_15_child_4",
+      "parent_id": "parent_15",
+      "text": "when a higher-order n-gram isn't found, using a simple fixed weight (like 0.4) instead of complex smoothing, making it fast and effective without normalizing probabilities.\n17\nStupid Back off Method in N-gram\nCheck Trigram: Look for the trigram (e.g., \"raining cats and\") in your data.\nIf Found: Calculate its probability (count of trigram / count of bigram).\nIf Not Found (Zero Count):\nBack Off: Move to the bigram (e.g., \"cats and\").\nMultiply by 0.4: Multiply the bigram's probability by a fixed factor (λ = 0.4).\nIf Bigram Also Not Found: Back off to the unigram (e.g., \"and\") and",
+      "heading": null,
+      "page_start": 91,
+      "page_end": 96,
+      "child_index": 4,
+      "parent_index": 15
+    },
+    {
+      "child_id": "parent_15_child_5",
+      "parent_id": "parent_15",
+      "text": "If Bigram Also Not Found: Back off to the unigram (e.g., \"and\") and\nmultiply by 0.42 (or continue the process).\nUnigram Base: The process stops at the unigram, which uses its simple count-\nbased probability (count of word / total words).\n18\nInflection in NLP\nIn NLP, inflection is modifying words (like adding '-s', '-ed', '-ing') to show grammatical info (plural, tense, etc.) without changing the core meaning (e.g., run -> runs, ran), distinct from derivation (creating new words\nlike happy to happiness)",
+      "heading": null,
+      "page_start": 91,
+      "page_end": 96,
+      "child_index": 5,
+      "parent_index": 15
+    },
+    {
+      "child_id": "parent_15_child_6",
+      "parent_id": "parent_15",
+      "text": "like happy to happiness)\nand its study (morphology) is key for tasks like search, translation, and spell-checking, often using tools like NLTK and techniques like lemmatization.\n19",
+      "heading": null,
+      "page_start": 91,
+      "page_end": 96,
+      "child_index": 6,
+      "parent_index": 15
+    },
+    {
+      "child_id": "parent_16_child_0",
+      "parent_id": "parent_16",
+      "text": "Derivational Morphology in NLP\nDerivational morphology in NLP studies how new words are formed, changing meaning or part of speech (like happy to happiness), unlike inflectional morphology which just adds grammar (like cat to cats).\nKey Concepts in NLP & Derivation:\nDerivation: Adding prefixes (un-, re-) or suffixes (-ness, -ly, -able) to change\na word's meaning or grammatical class (e.g., kind (adj) -\n> unkind (adj), happy (adj) -> happiness (noun)).\nInflection: Modifying words for tense, number, etc., without changing class\n(e.g., walk -> walked, dog -> dogs).",
+      "heading": null,
+      "page_start": 97,
+      "page_end": 102,
+      "child_index": 0,
+      "parent_index": 16
+    },
+    {
+      "child_id": "parent_16_child_1",
+      "parent_id": "parent_16",
+      "text": "(e.g., walk -> walked, dog -> dogs).\nMorphological Analysis: The process of identifying morphemes (root + affixes) in text, crucial for tasks like Machine Translation, Information Retrieval.\n20\nDerivational Morphology in NLP\nStemming & Lemmatization: Algorithms (like Porter\nStemmer, Yarowsky) reduce words to their base/root form, handling derived forms.\nZero Derivation: When a word's form doesn't change but its\ncategory does (e.g., Google (noun) -> to google (verb)).\nProductivity: How easily an affix (like -ness) creates new words,\nindicating its rule strength.\n21",
+      "heading": null,
+      "page_start": 97,
+      "page_end": 102,
+      "child_index": 1,
+      "parent_index": 16
+    },
+    {
+      "child_id": "parent_16_child_2",
+      "parent_id": "parent_16",
+      "text": "indicating its rule strength.\n21\nFinite-State Morphological Parsing\nFinite-State Morphological Parsing in NLP uses Finite-State Transducers (FSTs) to break words into morphemes (stems, prefixes, suffixes), handling both regular and irregular forms through cascades of automata for lexicon (word parts), morphotactics (rules), and spelling changes, effectively mapping surface words to their deep structure for tasks like stemming, lemmatization, and POS tagging.\n22\nFinite-State Morphological Parsing\nCore Concepts:",
+      "heading": null,
+      "page_start": 97,
+      "page_end": 102,
+      "child_index": 2,
+      "parent_index": 16
+    },
+    {
+      "child_id": "parent_16_child_3",
+      "parent_id": "parent_16",
+      "text": "22\nFinite-State Morphological Parsing\nCore Concepts:\nFinite-State Transducer (FST): A machine that takes an input string (like \"cats\") and outputs another string (like \"cat\"+\"plural\"), mapping letters to morphemes.\nMorphemes: Smallest meaningful units (e.g., \"run\" in \"running\", \"-ing\"\nas a plural marker).\nLexicon: Stores stems and affixes (prefixes/suffixes).\nMorphotactics: Rules for valid morpheme combinations (e.g., verb stem\n+ -ed).\nOrthographic Rules: Handle spelling changes (e.g., 'y' to 'i' in \"fly\" ->\n\"flies\").\n23\nFinite-State Morphological Parsing\nHow it Works:",
+      "heading": null,
+      "page_start": 97,
+      "page_end": 102,
+      "child_index": 3,
+      "parent_index": 16
+    },
+    {
+      "child_id": "parent_16_child_4",
+      "parent_id": "parent_16",
+      "text": "\"flies\").\n23\nFinite-State Morphological Parsing\nHow it Works:\nInput: A word like \"unhappily\".\nFST Processing: The FST reads letters, transitions through states, and maps them to output symbols (morphemes).\nOutput: The word is decomposed into its components: un- (prefix)\n+ happy (stem) + -ly (suffix).\nIrregularities: Special paths handle irregulars (e.g., goose -> geese).\n24\nLexicon and Morphotactics\nLexicon is a structured list of a language's words, stems, and affixes\nwith associated information (like part of speech and meaning)",
+      "heading": null,
+      "page_start": 97,
+      "page_end": 102,
+      "child_index": 4,
+      "parent_index": 16
+    },
+    {
+      "child_id": "parent_16_child_5",
+      "parent_id": "parent_16",
+      "text": "with associated information (like part of speech and meaning)\nMorphotactics  defines  the  rules  for  the  allowable  ordering  and\ncombination of these morphemes to form valid words.\nThese two components are fundamental to morphological analysis, often implemented using Finite State Transducers (FSTs) for efficient processing of word structures.\n25",
+      "heading": null,
+      "page_start": 97,
+      "page_end": 102,
+      "child_index": 5,
+      "parent_index": 16
+    },
+    {
+      "child_id": "parent_17_child_0",
+      "parent_id": "parent_17",
+      "text": "Lexicon\nA lexicon in NLP serves as a structured vocabulary database for a given language. Unlike a simple dictionary that might list every inflected form, an efficient NLP lexicon typically stores only the base forms (stems) and the various affixes (prefixes, suffixes). Key aspects of the lexicon:\nStorage Efficiency: Storing only stems and rules for inflections significantly reduces the overall number of entries compared to listing every possible word form (e.g., storing \"run\" and the \"-ing\" morpheme instead of \"running\" as a separate entry).",
+      "heading": null,
+      "page_start": 103,
+      "page_end": 108,
+      "child_index": 0,
+      "parent_index": 17
+    },
+    {
+      "child_id": "parent_17_child_1",
+      "parent_id": "parent_17",
+      "text": "Information Richness: Each entry in the lexicon includes crucial information, such as the  part  of  speech  (noun,  verb,  adjective),  semantic  relationships  (synonyms, antonyms), and other grammatical properties.\nDynamic Use: The lexicon is used with morphological rules to derive and analyze the full range of word forms in a language, allowing systems to handle words they haven't encountered before (productivity).\n26\nMorphotactics in NLP",
+      "heading": null,
+      "page_start": 103,
+      "page_end": 108,
+      "child_index": 1,
+      "parent_index": 17
+    },
+    {
+      "child_id": "parent_17_child_2",
+      "parent_id": "parent_17",
+      "text": "26\nMorphotactics in NLP\nMorphotactics refers to the model or set of rules that governs how morphemes can be ordered and combined within a word. Morphemes are the smallest units of meaning in a language.\nKey aspects of morphotactics:\nRule-Based Ordering: It dictates which classes of morphemes can follow others. For  example,  a  plural  morpheme  like  s  must  follow  a  noun  stem  in  English (e.g., cat + -s = cats), not precede it.",
+      "heading": null,
+      "page_start": 103,
+      "page_end": 108,
+      "child_index": 2,
+      "parent_index": 17
+    },
+    {
+      "child_id": "parent_17_child_3",
+      "parent_id": "parent_17",
+      "text": "Valid Word Formation: Morphotactic rules, often modeled using Finite State Automata  (FSA), determine whether  a  sequence  of morphemes constitutes  a legitimate word in the language.\nIntegration  with  Orthographic  Rules:  Morphotactics  works  alongside orthographic (spelling) rules, which manage the letter changes that occur when morphemes are combined (e.g., changing city + -s to cities by replacing y with ie).\n27\nThank You\n28\nCourse Title –NATURAL LANGUAGE PROCESSING\nMODULE 4 – WORD SENSE DISAMBIGUATION\nPresenter’s Name – B. Lakshmi Prasanna\nPresenter’s ID – IARE10706",
+      "heading": null,
+      "page_start": 103,
+      "page_end": 108,
+      "child_index": 3,
+      "parent_index": 17
+    },
+    {
+      "child_id": "parent_17_child_4",
+      "parent_id": "parent_17",
+      "text": "Presenter’s Name – B. Lakshmi Prasanna\nPresenter’s ID – IARE10706\nDepartment Name – IT\n1\nCOURSE OVERVIEW:\nThis  course  is  a  study  of  computing  systems  that  can  process,\nunderstand, or communicate in human language.\nThe primary focus of the course will be on understanding various NLP tasks  and  algorithms  for  effectively  solving  these  problems,  and methods for evaluating their performance.",
+      "heading": null,
+      "page_start": 103,
+      "page_end": 108,
+      "child_index": 4,
+      "parent_index": 17
+    },
+    {
+      "child_id": "parent_17_child_5",
+      "parent_id": "parent_17",
+      "text": "This  course  is  intended  as  a  theoretical  and  methodological introduction to the most widely used and effective current techniques, strategies and toolkits for natural language processing, with a primary focus on those available in the Python programming language.\nThe students will try to learn\nI. Natural language Processing for analyzing words based on\nMorphology and CORPUS.\nII. Probability theory with Linguistic essentials such as syntactic and\nsemantic analysis of text.\nIII. The applications of statistical learning methods and cutting-edge\nresearch models from deep learning.",
+      "heading": null,
+      "page_start": 103,
+      "page_end": 108,
+      "child_index": 5,
+      "parent_index": 17
+    },
+    {
+      "child_id": "parent_17_child_6",
+      "parent_id": "parent_17",
+      "text": "research models from deep learning.\nCOURSES OBJECTIVES:\n3",
+      "heading": null,
+      "page_start": 103,
+      "page_end": 108,
+      "child_index": 6,
+      "parent_index": 17
+    },
+    {
+      "child_id": "parent_18_child_0",
+      "parent_id": "parent_18",
+      "text": "At the end of the course students should be able to\nCO1 Remember the knowledge of complex language behavior in\nterms of phonetics, morphology\nCO2 Understand the semantics and pragmatics for text processing.\nCO3 Apply the CORPUS linguistics to compile and analyze the texts\nbased on digestive games.\nIII. COURSE OUTCOMES\n4\nCO4 Understand various statistical approaches to machine\ntranslation for a given natural language.\nCO5 Apply Part-of-speech (POS) tagging for a given natural\nlanguage and suitable modeling technique based on the structure",
+      "heading": null,
+      "page_start": 109,
+      "page_end": 114,
+      "child_index": 0,
+      "parent_index": 18
+    },
+    {
+      "child_id": "parent_18_child_1",
+      "parent_id": "parent_18",
+      "text": "language and suitable modeling technique based on the structure\nCO6 The art algorithms and techniques for text-based processing of\nnatural language with respect to morphology\n5\nMODULE IV: WORD SENSE DISAMBIGUATION (09)\nMethodological Preliminaries, Supervised Disambiguation: Bayesian classification, An information theoretic approach, Dictionary-Based Disambiguation: Disambiguation based on sense, Thesaurus based disambiguation, Disambiguation based on translations in a second-language corpus.\n6",
+      "heading": null,
+      "page_start": 109,
+      "page_end": 114,
+      "child_index": 1,
+      "parent_index": 18
+    },
+    {
+      "child_id": "parent_18_child_2",
+      "parent_id": "parent_18",
+      "text": "6\nWord Sense Disambiguation (WSD) is the process of determining which meaning of a word is intended in a particular context. It addresses the challenge of polysemy, where many words have multiple related meanings. For example, when we encounter the sentence \"I went to the bank,\" we automatically understand whether \"bank\" refers to a financial institution or the edge of a river based on surrounding context clues.\nWSD is important in many natural language processing (NLP) applications because if word meanings\nare misidentified, the results can be problematic:\n7",
+      "heading": null,
+      "page_start": 109,
+      "page_end": 114,
+      "child_index": 2,
+      "parent_index": 18
+    },
+    {
+      "child_id": "parent_18_child_3",
+      "parent_id": "parent_18",
+      "text": "are misidentified, the results can be problematic:\n7\nWord Sense Disambiguation (WSD) is the process of determining which meaning of a word is intended in a particular context. It addresses the challenge of polysemy, where many words have multiple related meanings. For example, when we encounter the sentence \"I went to the bank,\" we automatically understand whether \"bank\" refers to a financial institution or the edge of a river based on surrounding context clues.\nWSD is important in many natural language processing (NLP) applications",
+      "heading": null,
+      "page_start": 109,
+      "page_end": 114,
+      "child_index": 3,
+      "parent_index": 18
+    },
+    {
+      "child_id": "parent_18_child_4",
+      "parent_id": "parent_18",
+      "text": "WSD is important in many natural language processing (NLP) applications\nbecause if word meanings are misidentified, the results can be problematic:\n8\nMachine translation systems may produce incorrect translations due to\nmisinterpretation of word meanings.\nInformation retrieval systems might return irrelevant results because of semantic uncertainty or confusion.\nPrimary Approaches to Word Sense Disambiguation\nWSD techniques can be categorized into three main approaches, each with distinct\nmethodologies and use cases.\nKnowledge-Based Methods",
+      "heading": null,
+      "page_start": 109,
+      "page_end": 114,
+      "child_index": 4,
+      "parent_index": 18
+    },
+    {
+      "child_id": "parent_18_child_5",
+      "parent_id": "parent_18",
+      "text": "methodologies and use cases.\nKnowledge-Based Methods\nKnowledge-based approaches utilize lexical resources such as dictionaries and semantic networks to determine word meanings.\n9",
+      "heading": null,
+      "page_start": 109,
+      "page_end": 114,
+      "child_index": 5,
+      "parent_index": 18
+    },
+    {
+      "child_id": "parent_19_child_0",
+      "parent_id": "parent_19",
+      "text": "Compare context words with dictionary definitions of candidate senses\nCalculate overlap between contextual words and definitional content\nSelect the sense with maximum overlap score\nAdvantages:\nDoes not require annotated training data\nLeverages existing linguistic knowledge bases\nProvides interpretable disambiguation decisions\nThe Lesk algorithm assumes that words used together in coherent text will have\nsemantic relationships reflected in their dictionary definitions.\n10\nSupervised Learning Methods",
+      "heading": null,
+      "page_start": 115,
+      "page_end": 120,
+      "child_index": 0,
+      "parent_index": 19
+    },
+    {
+      "child_id": "parent_19_child_1",
+      "parent_id": "parent_19",
+      "text": "10\nSupervised Learning Methods\nSupervised approaches treat WSD as a classification problem, training machine learning models on datasets where word instances have been manually annotated with correct senses.\nKey characteristics:\nRequires substantial amounts of sense-annotated training data\nEmploys standard machine learning algorithms such as support vector\nmachines, decision trees or neural networks\nUses contextual features including surrounding words and syntactic\nrelationships\n11\nTraining process:\nExtract features from annotated examples",
+      "heading": null,
+      "page_start": 115,
+      "page_end": 120,
+      "child_index": 1,
+      "parent_index": 19
+    },
+    {
+      "child_id": "parent_19_child_2",
+      "parent_id": "parent_19",
+      "text": "relationships\n11\nTraining process:\nExtract features from annotated examples\nTrain classifier to map feature vectors to sense labels\nApply trained model to disambiguate new instances\nWhile supervised methods achieve high accuracy, they face the challenge of\nobtaining sufficient annotated data for all word-sense combinations.\nUnsupervised Learning Methods\nUnsupervised approaches operate without sense-labeled training data, instead\nrelying on distributional patterns in large text corpora.\n12\nFundamental principle:\nWords appearing in similar contexts tend to have similar meanings",
+      "heading": null,
+      "page_start": 115,
+      "page_end": 120,
+      "child_index": 2,
+      "parent_index": 19
+    },
+    {
+      "child_id": "parent_19_child_3",
+      "parent_id": "parent_19",
+      "text": "Words appearing in similar contexts tend to have similar meanings\nCluster word occurrences based on contextual similarity\nAssign sense labels to resulting clusters\nBayesian classification is a supervised learning approach used in Word Sense Disambiguation (WSD) where the correct sense of a word is identified using probability theory, specifically Bayes’ Theorem.\nIn this method, WSD is treated as a classification problem, where each possible\nsense of a word represents a class.\n13\nThe Information-Theoretic Approach to Word Sense Disambiguation (WSD)",
+      "heading": null,
+      "page_start": 115,
+      "page_end": 120,
+      "child_index": 3,
+      "parent_index": 19
+    },
+    {
+      "child_id": "parent_19_child_4",
+      "parent_id": "parent_19",
+      "text": "13\nThe Information-Theoretic Approach to Word Sense Disambiguation (WSD)\napplies concepts from information theory such as entropy, information gain,\nand mutual information to identify the correct sense of a word in a given context.\nIn this approach, the sense of a word is selected based on the maximum\ninformation gained from contextual features.\n14\nIn Natural Language Processing (NLP), word sense disambiguation (WSD) is the challenge of determining which \"sense\" (meaning) of a word is activated by its use in a specific context, a process that appears to be mostly unconscious in individuals.",
+      "heading": null,
+      "page_start": 115,
+      "page_end": 120,
+      "child_index": 4,
+      "parent_index": 19
+    },
+    {
+      "child_id": "parent_19_child_5",
+      "parent_id": "parent_19",
+      "text": "Lesk Algorithm is a way of Word Sense Disambiguation. The Lesk algorithm is a dictionary-based approach that is considered seminal. It is founded on the idea that words used in a text are related to one another, and that this relationship can be seen in the definitions of the words and their meanings.\n15",
+      "heading": null,
+      "page_start": 115,
+      "page_end": 120,
+      "child_index": 5,
+      "parent_index": 19
+    },
+    {
+      "child_id": "parent_20_child_0",
+      "parent_id": "parent_20",
+      "text": "The pair of dictionary senses having the highest word overlap in their dictionary meanings are used to disambiguate two (or more) terms. Michael E. Lesk introduced the Lesk algorithm in 1986 as a classic approach for word sense disambiguation in Natural Language Processing. The Lesk algorithm assumes that words in a given \"neighborhood\" (a portion of text) will have a similar theme. The dictionary definition of an uncertain word is compared to the terms in its neighborhood in a simplified version of the Lesk algorithm.\nBasic Lesk Algorithm implementation involves the following steps:",
+      "heading": null,
+      "page_start": 121,
+      "page_end": 126,
+      "child_index": 0,
+      "parent_index": 20
+    },
+    {
+      "child_id": "parent_20_child_1",
+      "parent_id": "parent_20",
+      "text": "Basic Lesk Algorithm implementation involves the following steps:\nCount the number of words in the neighborhood of the word and in the dictionary definition of that sense for each sense of the word being disambiguated.\n16\nWord Sense Disambiguation (WSD) is the process of determining which meaning of a word is intended in a particular context. It addresses the challenge of polysemy, where many words have multiple related meanings.\nFor example, when we encounter the sentence \"I went to the bank,\" we automatically understand whether \"bank\" refers to a financial institution or the",
+      "heading": null,
+      "page_start": 121,
+      "page_end": 126,
+      "child_index": 1,
+      "parent_index": 20
+    },
+    {
+      "child_id": "parent_20_child_2",
+      "parent_id": "parent_20",
+      "text": "edge of a river based on surrounding context clues.\n17\nThesaurus-based disambiguation is a knowledge-based approach to Word Sense Disambiguation (WSD) that uses a thesaurus or lexical knowledge base (such as WordNet) to identify the correct sense of an ambiguous word based on semantic similarity.\nA thesaurus groups words into synonyms, hypernyms, hyponyms, and related\nconcepts, which are exploited to determine meaning from context.\nEach possible sense of a word is associated with a set of related words from the\nthesaurus.\nContext words are compared with these related words.\n18",
+      "heading": null,
+      "page_start": 121,
+      "page_end": 126,
+      "child_index": 2,
+      "parent_index": 20
+    },
+    {
+      "child_id": "parent_20_child_3",
+      "parent_id": "parent_20",
+      "text": "thesaurus.\nContext words are compared with these related words.\n18\nIdentify the ambiguous word and its possible senses.\nRetrieve synonyms and semantically related words for each sense from the\nthesaurus.\nCompare these with the context words in the sentence.\nMeasure semantic overlap or similarity.\nChoose the sense with maximum similarity.\n19\nSentence:\n“The mouse was connected to the computer.”\nPossible senses of mouse:\nAnimal\nComputer device\nThesaurus relations:\nComputer device → keyboard, screen, monitor\nAnimal → rat, rodent\n20\nAdvantages\nDoes not require training data",
+      "heading": null,
+      "page_start": 121,
+      "page_end": 126,
+      "child_index": 3,
+      "parent_index": 20
+    },
+    {
+      "child_id": "parent_20_child_4",
+      "parent_id": "parent_20",
+      "text": "Animal → rat, rodent\n20\nAdvantages\nDoes not require training data\nUses rich semantic relations\nEffective for general-purpose language\nLimitations\nDepends on quality and coverage of the thesaurus\nDifficult for domain-specific terms\nLimited handling of contextual nuances\n21",
+      "heading": null,
+      "page_start": 121,
+      "page_end": 126,
+      "child_index": 4,
+      "parent_index": 20
+    },
+    {
+      "child_id": "parent_21_child_0",
+      "parent_id": "parent_21",
+      "text": "Cross-Lingual Word Sense Disambiguation\nIt is closely related to a concept of Word Sense Disambiguation (WSD) is the process of determining which meaning of a word is intended in a particular context. It addresses the challenge of polysemy, where many words have multiple related meanings. For example, when we encounter the sentence \"I went to the bank,\" we automatically understand whether \"bank\" refers to a financial institution or the edge of a river based on surrounding context clues.\n22\nWSD is important in many natural language processing (NLP) applications",
+      "heading": null,
+      "page_start": 127,
+      "page_end": 132,
+      "child_index": 0,
+      "parent_index": 21
+    },
+    {
+      "child_id": "parent_21_child_1",
+      "parent_id": "parent_21",
+      "text": "22\nWSD is important in many natural language processing (NLP) applications\nbecause if word meanings are misidentified, the results can be problematic:\nMachine translation systems may produce incorrect translations due to misinterpretation of word meanings.\nInformation retrieval systems might return irrelevant results because of semantic\nuncertainty or confusion.\nQuestion-answering systems require precise word meanings to provide accurate\nand relevant answers.\n23\nPrimary Approaches to Word Sense Disambiguation\nWSD techniques can be categorized into three main approaches, each with",
+      "heading": null,
+      "page_start": 127,
+      "page_end": 132,
+      "child_index": 1,
+      "parent_index": 21
+    },
+    {
+      "child_id": "parent_21_child_2",
+      "parent_id": "parent_21",
+      "text": "WSD techniques can be categorized into three main approaches, each with\ndistinct methodologies and use cases.\nKnowledge-Based Methods\nKnowledge-based approaches utilize lexical resources such as dictionaries and semantic networks to determine word meanings. The Lesk algorithm works over this approach.\n24\nAdvantages:\nDoes not require annotated training data\nLeverages existing linguistic knowledge bases\nProvides interpretable disambiguation decisions\nThe Lesk algorithm assumes that words used together in coherent text will have\nsemantic relationships reflected in their dictionary definitions.",
+      "heading": null,
+      "page_start": 127,
+      "page_end": 132,
+      "child_index": 2,
+      "parent_index": 21
+    },
+    {
+      "child_id": "parent_21_child_3",
+      "parent_id": "parent_21",
+      "text": "semantic relationships reflected in their dictionary definitions.\n25\n2. Supervised Learning Methods\nSupervised approaches treat WSD as a classification problem, training machine learning models on datasets where word instances have been manually annotated with correct senses.\nTraining process:\nExtract features from annotated examples\nTrain classifier to map feature vectors to sense labels\nApply trained model to disambiguate new instances\n26\nWhile supervised methods achieve high accuracy, they face the challenge of\nobtaining sufficient annotated data for all word-sense combinations.",
+      "heading": null,
+      "page_start": 127,
+      "page_end": 132,
+      "child_index": 3,
+      "parent_index": 21
+    },
+    {
+      "child_id": "parent_21_child_4",
+      "parent_id": "parent_21",
+      "text": "obtaining sufficient annotated data for all word-sense combinations.\nUnsupervised Learning Methods\nUnsupervised approaches operate without sense-labeled training data, instead\nrelying on distributional patterns in large text corpora.\nFundamental principle:\nWords appearing in similar contexts tend to have similar meanings\nCluster word occurrences based on contextual similarity\nAssign sense labels to resulting clusters\n27",
+      "heading": null,
+      "page_start": 127,
+      "page_end": 132,
+      "child_index": 4,
+      "parent_index": 21
+    },
+    {
+      "child_id": "parent_22_child_0",
+      "parent_id": "parent_22",
+      "text": "Implementation: Basic WSD System\n1. Creating the Class and Sense Inventory\nWe create a BasicWSD class which stores a sense inventory for target words. Each word has multiple meanings and each sense is associated with keywords that help identify it.\nself.sense_inventory: Stores each ambiguous word along with its senses and their associated keywords.\nself.stop_words: Stores common words (e.g., the and, of) to be ignored during\nprocessing.\n28\n2. Preprocessing the Input Sentence\nWe define a method to clean up the input sentence. It removes unnecessary",
+      "heading": null,
+      "page_start": 133,
+      "page_end": 138,
+      "child_index": 0,
+      "parent_index": 22
+    },
+    {
+      "child_id": "parent_22_child_1",
+      "parent_id": "parent_22",
+      "text": "We define a method to clean up the input sentence. It removes unnecessary\nwords and punctuation so that only meaningful context remains.\nsentence.lower(): Converts all characters to lowercase for consistency.\nsentence.replace(ch, \"\"): Removes punctuation symbols.\nsentence.split(): Splits the sentence into words and filters out stop words and\nsingle-character tokens.\n29\n3. Disambiguating the Target Word\nWe now add the method that predicts the correct sense of the target word. It\ncompares context words with keywords for each sense.",
+      "heading": null,
+      "page_start": 133,
+      "page_end": 138,
+      "child_index": 1,
+      "parent_index": 22
+    },
+    {
+      "child_id": "parent_22_child_2",
+      "parent_id": "parent_22",
+      "text": "compares context words with keywords for each sense.\ncontext = . : Extracts all context words except the target word.\nscores[sense] = len(set(context) & set(keywords)): Counts how many context\nwords match each sense's keywords.\nmax(scores, key=scores.get): Selects the sense with the highest overlap score.\n30\n4. Testing the Implementation\nWe create an object of the class and test it with sample sentences.\nwsd.disambiguate(word, sentence): Returns the predicted sense and the overlap scores for each possible sense.\nThe output displays the original sentence, the target word, predicted sense and a",
+      "heading": null,
+      "page_start": 133,
+      "page_end": 138,
+      "child_index": 2,
+      "parent_index": 22
+    },
+    {
+      "child_id": "parent_22_child_3",
+      "parent_id": "parent_22",
+      "text": "breakdown of scores.\n31\nChallenges and Limitations\nThe basic approach faces several constraints:\nLimited coverage: Only handles predefined words with manually curated sense inventories\nShallow semantic understanding: Simple word overlap cannot capture deeper\nsemantic relationships\nContext dependency: Requires sufficient contextual clues for accurate\ndisambiguation\n32\nBroader WSD Challenges\nData sparsity : As many word-sense combinations appear infrequently in\ntraining corpora, making supervised learning difficult for rare senses.",
+      "heading": null,
+      "page_start": 133,
+      "page_end": 138,
+      "child_index": 3,
+      "parent_index": 22
+    },
+    {
+      "child_id": "parent_22_child_4",
+      "parent_id": "parent_22",
+      "text": "training corpora, making supervised learning difficult for rare senses.\nSense granularity : Different lexical resources may define sense boundaries differently. Fine-grained sense distinctions are typically more difficult to disambiguate than coarse-grained categories.\nDomain adaptation : Models trained on general text often perform poorly\nwhen applied to specialized domains such as medical, legal or technical texts.\n33",
+      "heading": null,
+      "page_start": 133,
+      "page_end": 138,
+      "child_index": 4,
+      "parent_index": 22
+    },
+    {
+      "child_id": "parent_23_child_0",
+      "parent_id": "parent_23",
+      "text": "Applications and Future Directions\nWSD technology finds practical application across numerous domains:\nMachine Translation: Accurate sense identification improves translation quality by selecting appropriate target language equivalents for ambiguous source words.\nInformation Retrieval: Search engines employ WSD to better understand user query intent and retrieve more relevant documents.\nContent Analysis: Text processing systems benefit from precise word meanings for tasks such as sentiment analysis, topic modeling and document classification.\n34\nThank You\n35",
+      "heading": null,
+      "page_start": 139,
+      "page_end": 144,
+      "child_index": 0,
+      "parent_index": 23
+    },
+    {
+      "child_id": "parent_23_child_1",
+      "parent_id": "parent_23",
+      "text": "34\nThank You\n35\nCourse Title –NATURAL LANGUAGE PROCESSING\nTopic Title: MARKOV MODEL AND POS TAGGING\nPresenter’s Name – B. Lakshmi Prasanna\nPresenter’s ID – IARE10706 Department Name – IT\n1\nCOURSE OVERVIEW:\nThis course is a study of computing systems that can process,\nunderstand, or communicate in human language.\nThe primary focus of the course will be on understanding various NLP tasks and algorithms for effectively solving these problems, and methods for evaluating their performance.",
+      "heading": null,
+      "page_start": 139,
+      "page_end": 144,
+      "child_index": 1,
+      "parent_index": 23
+    },
+    {
+      "child_id": "parent_23_child_2",
+      "parent_id": "parent_23",
+      "text": "This course is intended as a theoretical and methodological introduction to the most widely used and effective current techniques, strategies and toolkits for natural language processing, with a primary focus on those available in the Python programming language.\n2\nCOURSES OBJECTIVES:\nThe students will try to learn\nI. Natural language Processing for analyzing words based on\nMorphology and CORPUS.\nII. Probability theory with Linguistic essentials such as syntactic and\nsemantic analysis of text.",
+      "heading": null,
+      "page_start": 139,
+      "page_end": 144,
+      "child_index": 2,
+      "parent_index": 23
+    },
+    {
+      "child_id": "parent_23_child_3",
+      "parent_id": "parent_23",
+      "text": "semantic analysis of text.\nIII. The applications of statistical learning methods and cutting-edge research models from deep learning.\n3\nCOURSES OUTCOMES:\nAt the end of the course students should be able to\nCO1 Remember the knowledge of complex language behavior in\nterms of phonetics, morphology\nCO2 Understand the semantics and pragmatics for text processing.\nCO3 Apply the CORPUS linguistics to compile and analyze the texts based on digestive games.\n4",
+      "heading": null,
+      "page_start": 139,
+      "page_end": 144,
+      "child_index": 3,
+      "parent_index": 23
+    },
+    {
+      "child_id": "parent_24_child_0",
+      "parent_id": "parent_24",
+      "text": "CO4 Understand various statistical approaches to machine\ntranslation for a given natural language.\nCO5 Apply Part-of-speech (POS) tagging for a given natural language and suitable modeling technique based on the structure\nCO6 The art algorithms and techniques for text-based processing of natural language with respect to morphology\n5\nMODULE V: MARKOV MODEL AND POS TAGGING (09)",
+      "heading": null,
+      "page_start": 145,
+      "page_end": 150,
+      "child_index": 0,
+      "parent_index": 24
+    },
+    {
+      "child_id": "parent_24_child_1",
+      "parent_id": "parent_24",
+      "text": "5\nMODULE V: MARKOV MODEL AND POS TAGGING (09)\nMarkov Model: Hidden Markov model, Fundamentals, Probability of properties, Parameter estimation, Variants, Multiple input observation. The Information Sources in Tagging: Markov model taggers, Viterbi algorithm, Applying HMMs to POS tagging, Applications of Tagging.\n6\nModule Introduction – Markov Model and POS Tagging:",
+      "heading": null,
+      "page_start": 145,
+      "page_end": 150,
+      "child_index": 1,
+      "parent_index": 24
+    },
+    {
+      "child_id": "parent_24_child_2",
+      "parent_id": "parent_24",
+      "text": "6\nModule Introduction – Markov Model and POS Tagging:\nMarkov  Models  are  probabilistic  models  that  are  widely  used  in  Natural  Language Processing to represent sequential data such as sentences and word sequences. They help in predicting the next element in a sequence based on previous elements.\nThis module introduces the concept of Hidden Markov Models (HMMs), which extend basic Markov models by allowing hidden states that are not directly observable but influence observable outputs.",
+      "heading": null,
+      "page_start": 145,
+      "page_end": 150,
+      "child_index": 2,
+      "parent_index": 24
+    },
+    {
+      "child_id": "parent_24_child_3",
+      "parent_id": "parent_24",
+      "text": "A major application discussed in this module is Part-of-Speech (POS) Tagging, which is the process  of  assigning  grammatical  tags  like  noun,  verb,  adjective,  etc.,  to  words  in  a sentence.\nThe module also explains the Viterbi Algorithm, which is an efficient dynamic programming approach used to find the most probable sequence of hidden states in HMMs.Overall, this module bridges probability theory and linguistic structure, making it essential for building real-world NLP systems.\nIntroduction to Markov Models",
+      "heading": null,
+      "page_start": 145,
+      "page_end": 150,
+      "child_index": 3,
+      "parent_index": 24
+    },
+    {
+      "child_id": "parent_24_child_4",
+      "parent_id": "parent_24",
+      "text": "Introduction to Markov Models\nA Markov Model is a stochastic model that predicts future states based only on the current state, not on the entire history of past states. This simplifying assumption is known as the Markov property.\nIn the context of NLP, this means that the probability of a word or tag\noccurring depends only on a limited number of previous words or tags.\nMarkov models are particularly useful for language tasks because language naturally follows a sequential structure.\nBy reducing dependency on long histories, Markov models make",
+      "heading": null,
+      "page_start": 145,
+      "page_end": 150,
+      "child_index": 4,
+      "parent_index": 24
+    },
+    {
+      "child_id": "parent_24_child_5",
+      "parent_id": "parent_24",
+      "text": "By reducing dependency on long histories, Markov models make\nprobability computation feasible for large text corpora.\n8\nFundamentals of Markov Models\nThe fundamental components of a Markov model include states, which represent possible conditions or categories, such as grammatical tags in POS tagging.\nAnother important component is the transition probability, which\ndefines the likelihood of moving from one state to another.\nThe initial state probability represents the likelihood of the sequence starting in a particular state.\nThe most important characteristic of Markov models is their",
+      "heading": null,
+      "page_start": 145,
+      "page_end": 150,
+      "child_index": 5,
+      "parent_index": 24
+    },
+    {
+      "child_id": "parent_24_child_6",
+      "parent_id": "parent_24",
+      "text": "The most important characteristic of Markov models is their\nmemoryless nature, which simplifies both modeling and computation.\n9\n10",
+      "heading": null,
+      "page_start": 145,
+      "page_end": 150,
+      "child_index": 6,
+      "parent_index": 24
+    },
+    {
+      "child_id": "parent_25_child_0",
+      "parent_id": "parent_25",
+      "text": "Types of Markov Models\nIn a Visible Markov Model, the states are directly observable, and\nthe output sequence corresponds exactly to the state sequence.\nThese models are useful in simple prediction problems where the system’s internal state is fully known.\nIn contrast, a Hidden Markov Model (HMM) has states that are not\ndirectly visible, but each state produces observable outputs.\nHMMs are highly suitable for NLP tasks because linguistic categories\nlike POS tags are hidden, while words are observable.\n11\nHidden Markov Model (HMM) – Overview",
+      "heading": null,
+      "page_start": 151,
+      "page_end": 156,
+      "child_index": 0,
+      "parent_index": 25
+    },
+    {
+      "child_id": "parent_25_child_1",
+      "parent_id": "parent_25",
+      "text": "11\nHidden Markov Model (HMM) – Overview\nA Hidden Markov Model is a probabilistic framework where the system transitions between hidden states while generating observable outputs.\nIn POS tagging, the hidden states correspond to grammatical\ncategories, and the observed outputs are the words in a sentence.\nThe goal of using an HMM is to determine the most probable sequence of hidden states given a sequence of observed words.\nHMMs are widely used in NLP because they effectively combine\nlinguistic structure with statistical modeling.\n12\nComponents of a Hidden Markov Model",
+      "heading": null,
+      "page_start": 151,
+      "page_end": 156,
+      "child_index": 1,
+      "parent_index": 25
+    },
+    {
+      "child_id": "parent_25_child_2",
+      "parent_id": "parent_25",
+      "text": "12\nComponents of a Hidden Markov Model\nThe set of states represents all possible POS tags that can be assigned to words in a language.\nThe observations correspond to the words present in the input\nsentence.\nTransition probabilities model the likelihood of one POS tag following\nanother, capturing syntactic patterns of language.\nEmission probabilities represent the likelihood of a word being generated from a particular POS tag.\nInitial probabilities define how likely a tag is to appear at the\nbeginning of a sentence.\n13\nProbability of Properties in HMM",
+      "heading": null,
+      "page_start": 151,
+      "page_end": 156,
+      "child_index": 2,
+      "parent_index": 25
+    },
+    {
+      "child_id": "parent_25_child_3",
+      "parent_id": "parent_25",
+      "text": "beginning of a sentence.\n13\nProbability of Properties in HMM\nTransition probability measures how likely a particular tag follows\nanother tag, reflecting grammatical rules and language structure.\nEmission probability measures how likely a word is associated with a particular tag, capturing lexical behavior.\nThese probabilities together allow the HMM to model both syntactic\nand lexical information.\nAccurate probability estimation is critical for improving the\nperformance of POS tagging systems.\n14\nParameter Estimation in HMM\nParameter estimation refers to the process of calculating transition",
+      "heading": null,
+      "page_start": 151,
+      "page_end": 156,
+      "child_index": 3,
+      "parent_index": 25
+    },
+    {
+      "child_id": "parent_25_child_4",
+      "parent_id": "parent_25",
+      "text": "Parameter estimation refers to the process of calculating transition\nand emission probabilities from training data.\nThe most common method used is Maximum Likelihood Estimation (MLE), which relies on frequency counts from annotated corpora.\nTransition probabilities are calculated by dividing the number of times one tag follows another by the total occurrences of the previous tag.\nEmission probabilities are calculated by dividing the number of times\na word appears with a tag by the total occurrences of that tag.\n15\nVariants of Markov Models",
+      "heading": null,
+      "page_start": 151,
+      "page_end": 156,
+      "child_index": 4,
+      "parent_index": 25
+    },
+    {
+      "child_id": "parent_25_child_5",
+      "parent_id": "parent_25",
+      "text": "15\nVariants of Markov Models\nUnigram models assume that each word or tag is independent of\nprevious ones, making them simple but less accurate.\nBigram models consider the immediately preceding word or tag, offering a balance between simplicity and accuracy.\nTrigram models use two previous tags, capturing richer contextual\ninformation but requiring more training data.\nHigher-order Markov models generally improve accuracy but\nincrease computational complexity and data requirements.\n16",
+      "heading": null,
+      "page_start": 151,
+      "page_end": 156,
+      "child_index": 5,
+      "parent_index": 25
+    },
+    {
+      "child_id": "parent_26_child_0",
+      "parent_id": "parent_26",
+      "text": "Multiple Input Observation in Markov Models\nIn real-world NLP tasks, models often need to handle multiple observations simultaneously rather than a single stream of data.\nMultiple input observation refers to scenarios where the system considers more than one observable feature at each time step, such as word form, suffix, capitalization, or punctuation.\nIn POS tagging, this helps improve accuracy by incorporating additional\nlinguistic cues beyond just the word itself.\nHidden Markov Models can be extended to support multiple observations by adjusting the emission probability calculations.",
+      "heading": null,
+      "page_start": 157,
+      "page_end": 162,
+      "child_index": 0,
+      "parent_index": 26
+    },
+    {
+      "child_id": "parent_26_child_1",
+      "parent_id": "parent_26",
+      "text": "This approach makes the tagging system more robust, especially when\ndealing with ambiguous or unseen words.\n17\nInformation Sources in POS Tagging\nPOS tagging relies on multiple information sources to assign accurate grammatical tags to words.\nThe lexical information source uses word-level knowledge, such as known word-tag associations from a corpus.\nThe contextual information source uses neighboring tags or words to\ndetermine the most likely tag sequence.\nThe statistical information source uses probabilities learned from annotated training data.",
+      "heading": null,
+      "page_start": 157,
+      "page_end": 162,
+      "child_index": 1,
+      "parent_index": 26
+    },
+    {
+      "child_id": "parent_26_child_2",
+      "parent_id": "parent_26",
+      "text": "Markov models efficiently combine these information sources into a unified probabilistic framework.\n18\nMarkov Model Taggers\nMarkov Model Taggers are statistical POS taggers that use Markov assumptions to predict the most probable tag sequence.\nThese taggers assume that the probability of a tag depends only on a\nlimited number of previous tags.\nBigram and trigram taggers are commonly used because they\nbalance contextual awareness and computational efficiency.\nMarkov taggers outperform rule-based taggers when trained on sufficiently large annotated corpora.",
+      "heading": null,
+      "page_start": 157,
+      "page_end": 162,
+      "child_index": 2,
+      "parent_index": 26
+    },
+    {
+      "child_id": "parent_26_child_3",
+      "parent_id": "parent_26",
+      "text": "They are widely used in modern NLP pipelines due to their\nadaptability and accuracy.\n19\n20\nPOS Tagging Using Hidden Markov Models\nIn HMM-based POS tagging, the observed sequence is the sentence, and the hidden sequence is the POS tags.\nThe goal is to find the tag sequence that maximizes the joint\nprobability of the tag sequence and the observed words.\nHMMs model both syntactic patterns (through transition probabilities)\nand lexical patterns (through emission probabilities).\nThis dual modeling capability makes HMMs highly effective for POS tagging.",
+      "heading": null,
+      "page_start": 157,
+      "page_end": 162,
+      "child_index": 3,
+      "parent_index": 26
+    },
+    {
+      "child_id": "parent_26_child_4",
+      "parent_id": "parent_26",
+      "text": "This dual modeling capability makes HMMs highly effective for POS tagging.\nHMM-based tagging is language-independent and can be adapted to\ndifferent languages with proper training data.\n21\nChallenges in POS Tagging\nare often required for better performance.\nOne major challenge in POS tagging is ambiguity, where a word can belong to multiple grammatical categories.\nUnknown or out-of-vocabulary words pose difficulties because they\ndo not appear in the training corpus.\nSparse data problems occur when certain tag sequences appear\nrarely, leading to unreliable probability estimates.",
+      "heading": null,
+      "page_start": 157,
+      "page_end": 162,
+      "child_index": 4,
+      "parent_index": 26
+    },
+    {
+      "child_id": "parent_26_child_5",
+      "parent_id": "parent_26",
+      "text": "rarely, leading to unreliable probability estimates.\nNoise and errors in annotated corpora can affect parameter estimation.\nHMMs address these challenges partially, but smoothing techniques\n22",
+      "heading": null,
+      "page_start": 157,
+      "page_end": 162,
+      "child_index": 5,
+      "parent_index": 26
+    },
+    {
+      "child_id": "parent_27_child_0",
+      "parent_id": "parent_27",
+      "text": "Working Principle of the Viterbi Algorithm\nMarkov assumptions.\nThe algorithm works by constructing a trellis diagram, where rows represent states and columns represent time steps.\nAt each step, it computes the maximum probability of reaching a\nstate given the previous computations.\nThe algorithm keeps track of the best path leading to each state\nusing backpointers.\nAfter processing the entire sentence, backtracking is used to retrieve the most probable tag sequence.\nThis systematic approach guarantees the optimal solution under the\n23\nSteps in the Viterbi Algorithm",
+      "heading": null,
+      "page_start": 163,
+      "page_end": 168,
+      "child_index": 0,
+      "parent_index": 27
+    },
+    {
+      "child_id": "parent_27_child_1",
+      "parent_id": "parent_27",
+      "text": "23\nSteps in the Viterbi Algorithm\nInitialization: Assign initial probabilities to each state for the first\nobservation.\nRecursion: For each subsequent observation, compute the maximum probability for each state using transition and emission probabilities.\nTermination: Identify the final state with the highest probability.\nBacktracking: Trace back through stored paths to obtain the best\ntag sequence.\nThese steps make the algorithm both efficient and reliable for sequence labeling tasks.\n24\nApplying Viterbi Algorithm to POS Tagging",
+      "heading": null,
+      "page_start": 163,
+      "page_end": 168,
+      "child_index": 1,
+      "parent_index": 27
+    },
+    {
+      "child_id": "parent_27_child_2",
+      "parent_id": "parent_27",
+      "text": "24\nApplying Viterbi Algorithm to POS Tagging\nFor a given sentence, the Viterbi algorithm evaluates all possible tag transitions efficiently.\nIt uses transition probabilities to model grammatical structure and\nemission probabilities to model word-tag associations.\nThe algorithm assigns the tag sequence with the highest probability\nas the final output.\nThis method ensures global optimization rather than making local greedy decisions.\nAs a result, HMM + Viterbi produces more accurate tagging than\nsimple rule-based approaches.\n25\n26\nAdvantages of HMM-Based POS Tagging",
+      "heading": null,
+      "page_start": 163,
+      "page_end": 168,
+      "child_index": 2,
+      "parent_index": 27
+    },
+    {
+      "child_id": "parent_27_child_3",
+      "parent_id": "parent_27",
+      "text": "simple rule-based approaches.\n25\n26\nAdvantages of HMM-Based POS Tagging\nHMM-based taggers are statistically sound and based on well-defined probabilistic principles.\nThey can be trained automatically using annotated corpora, reducing\nmanual effort.\nThe approach is flexible and can be adapted to different languages\nand domains.\nIntegration with the Viterbi algorithm ensures optimal tag sequence selection.\nDue to these advantages, HMM-based POS tagging remains a\nfoundational technique in NLP.\n27\nNeed for Advanced POS Tagging Techniques",
+      "heading": null,
+      "page_start": 163,
+      "page_end": 168,
+      "child_index": 3,
+      "parent_index": 27
+    },
+    {
+      "child_id": "parent_27_child_4",
+      "parent_id": "parent_27",
+      "text": "foundational technique in NLP.\n27\nNeed for Advanced POS Tagging Techniques\nSimple rule-based tagging systems fail when language becomes ambiguous or complex, making advanced statistical methods necessary.\nAs natural language contains uncertainty and variability, probabilistic\nmodels like HMMs provide better generalization.\nAdvanced POS tagging techniques handle unseen words and varying sentence structures more effectively.\nThese techniques form the backbone of modern NLP applications\nsuch as parsing and machine translation.\n28",
+      "heading": null,
+      "page_start": 163,
+      "page_end": 168,
+      "child_index": 4,
+      "parent_index": 27
+    },
+    {
+      "child_id": "parent_28_child_0",
+      "parent_id": "parent_28",
+      "text": "Ambiguity in Natural Language\nAmbiguity occurs when a word can have multiple meanings or\ngrammatical roles depending on context.\nFor example, the word “book” can act as a noun or a verb.\nPOS tagging systems must rely on surrounding context to resolve\nsuch ambiguities.\nMarkov models address ambiguity by choosing the most probable tag sequence rather than individual tags.\n29\nLexical Ambiguity vs Structural Ambiguity\nLexical ambiguity arises when a single word has multiple POS tags.\nStructural ambiguity occurs when a sentence can have multiple\ngrammatical interpretations.",
+      "heading": null,
+      "page_start": 169,
+      "page_end": 174,
+      "child_index": 0,
+      "parent_index": 28
+    },
+    {
+      "child_id": "parent_28_child_1",
+      "parent_id": "parent_28",
+      "text": "grammatical interpretations.\nPOS tagging primarily addresses lexical ambiguity but also\ncontributes to resolving structural ambiguity.\nContextual probabilities play a key role in distinguishing between ambiguous interpretations.\n30\nSmoothing Techniques in HMM\nSmoothing techniques are used to handle zero-probability issues\ncaused by unseen events.\nWithout smoothing, unseen tag transitions or emissions would result in zero probability for entire sequences.\nCommon smoothing techniques include add-one smoothing and\nback-off models.\nSmoothing improves model robustness and ensures better",
+      "heading": null,
+      "page_start": 169,
+      "page_end": 174,
+      "child_index": 1,
+      "parent_index": 28
+    },
+    {
+      "child_id": "parent_28_child_2",
+      "parent_id": "parent_28",
+      "text": "back-off models.\nSmoothing improves model robustness and ensures better\ngeneralization to unseen data.\n31\nRole of Corpus in POS Tagging\nA corpus is a large, structured collection of annotated text used for\ntraining NLP models.\nPOS taggers rely heavily on annotated corpora to learn word-tag associations and tag transitions.\nThe quality and size of the corpus directly affect tagging accuracy.\nWell-known corpora include Penn Treebank and Brown Corpus.\n32\nTraining Phase of HMM POS Tagger\nDuring training, the HMM learns transition and emission probabilities\nfrom the annotated corpus.",
+      "heading": null,
+      "page_start": 169,
+      "page_end": 174,
+      "child_index": 2,
+      "parent_index": 28
+    },
+    {
+      "child_id": "parent_28_child_3",
+      "parent_id": "parent_28",
+      "text": "from the annotated corpus.\nFrequency counts of tag transitions and word-tag pairs are collected.\nThese counts are converted into probabilities using normalization.\nThe trained model is then ready to tag unseen sentences.\n33\nTesting Phase of HMM POS Tagger\nIn the testing phase, the trained HMM is applied to new sentences.\nThe Viterbi algorithm is used to compute the most probable tag\nsequence.\nThe system does not know the correct tags during testing.\nPerformance is evaluated by comparing predicted tags with reference annotations.\n34",
+      "heading": null,
+      "page_start": 169,
+      "page_end": 174,
+      "child_index": 3,
+      "parent_index": 28
+    },
+    {
+      "child_id": "parent_29_child_0",
+      "parent_id": "parent_29",
+      "text": "Evaluation of POS Tagging Systems\nEvaluation measures how accurately the tagging system assigns\ncorrect tags.\nAccuracy is computed as the percentage of correctly tagged words.\nPrecision and recall may also be used for tag-specific evaluation.\nEvaluation helps identify weaknesses and improve model performance.\n35\nTagging Accuracy Metrics\nAccuracy is defined as the ratio of correctly tagged words to total words.\nError rate measures the proportion of incorrectly assigned tags.\nConfusion matrices are used to analyze tag-level performance.\nThese metrics provide insight into common tagging errors.",
+      "heading": null,
+      "page_start": 175,
+      "page_end": 180,
+      "child_index": 0,
+      "parent_index": 29
+    },
+    {
+      "child_id": "parent_29_child_1",
+      "parent_id": "parent_29",
+      "text": "These metrics provide insight into common tagging errors.\n36\nError Analysis in POS Tagging\nError analysis helps understand why the system makes incorrect\npredictions.\nErrors may arise from ambiguity, sparse data, or incorrect probability estimates.\nAnalyzing errors helps refine probability models and smoothing\ntechniques.\nThis process is essential for improving real-world tagging systems.\n37\nComparison with Rule-Based Tagging\nRule-based taggers rely on manually crafted linguistic rules.\nWhile accurate for simple cases, they are difficult to scale and\nmaintain.",
+      "heading": null,
+      "page_start": 175,
+      "page_end": 180,
+      "child_index": 1,
+      "parent_index": 29
+    },
+    {
+      "child_id": "parent_29_child_2",
+      "parent_id": "parent_29",
+      "text": "While accurate for simple cases, they are difficult to scale and\nmaintain.\nHMM-based taggers automatically learn from data and adapt to new\ndomains.\nStatistical taggers outperform rule-based systems on large datasets.\n38\nStochastic vs Deterministic Taggers\nDeterministic taggers assign tags based on fixed rules.\nStochastic taggers use probabilities to choose the most likely tag.\nHMM-based taggers belong to stochastic approaches.\nStochastic taggers better handle uncertainty and ambiguity in language.\n39\nAdvantages of Markov-Based POS Tagging",
+      "heading": null,
+      "page_start": 175,
+      "page_end": 180,
+      "child_index": 2,
+      "parent_index": 29
+    },
+    {
+      "child_id": "parent_29_child_3",
+      "parent_id": "parent_29",
+      "text": "39\nAdvantages of Markov-Based POS Tagging\nMarkov models provide a mathematically sound framework.\nThey balance efficiency and accuracy.\nModels are language-independent and adaptable.\nSuitable for large-scale NLP systems.\n40",
+      "heading": null,
+      "page_start": 175,
+      "page_end": 180,
+      "child_index": 3,
+      "parent_index": 29
+    },
+    {
+      "child_id": "parent_30_child_0",
+      "parent_id": "parent_30",
+      "text": "Limitations of HMM-Based POS Tagging\nHMMs assume limited context due to the Markov assumption.\nThey require large annotated corpora for good performance.\nIndependence assumptions may oversimplify language structure.\nPerformance degrades with highly complex linguistic phenomena.\n41\nApplications of POS Tagging\nPOS tagging is used in syntactic parsing to identify phrase structure.\nIt plays a key role in information extraction systems.\nMachine translation systems use POS tags to preserve grammatical correctness.\nPOS tagging supports text summarization and sentiment analysis.\n42",
+      "heading": null,
+      "page_start": 181,
+      "page_end": 186,
+      "child_index": 0,
+      "parent_index": 30
+    },
+    {
+      "child_id": "parent_30_child_1",
+      "parent_id": "parent_30",
+      "text": "POS tagging supports text summarization and sentiment analysis.\n42\nPOS Tagging Applications\nInformation Retrieval & Text Mining: POS tagging identifies key nouns and verbs to improve search relevance, indexing, and feature selection.\nSpeech Recognition: POS tagging uses grammatical context to\nresolve homophones and improve transcription accuracy.\nMachine Translation: POS tagging preserves grammatical structure and improves word alignment across languages.\nQuestion Answering Systems: POS tagging identifies question\nstructure and expected answer type for precise answer extraction.\n43",
+      "heading": null,
+      "page_start": 181,
+      "page_end": 186,
+      "child_index": 1,
+      "parent_index": 30
+    },
+    {
+      "child_id": "parent_30_child_2",
+      "parent_id": "parent_30",
+      "text": "structure and expected answer type for precise answer extraction.\n43\nIntegration of POS Tagging in NLP Pipelines\nPOS tagging is typically performed after tokenization.\nIts output is used by downstream tasks such as parsing.\nErrors in tagging can propagate, affecting later stages.\nTherefore, accurate POS tagging is critical in NLP pipelines.\n44\nConclusion\nMarkov Models and POS tagging form a critical part of NLP.\nHMM-based tagging demonstrates the power of probabilistic\nmodeling.\nUnderstanding these concepts prepares students for advanced NLP\ntopics.",
+      "heading": null,
+      "page_start": 181,
+      "page_end": 186,
+      "child_index": 2,
+      "parent_index": 30
+    },
+    {
+      "child_id": "parent_30_child_3",
+      "parent_id": "parent_30",
+      "text": "Understanding these concepts prepares students for advanced NLP\ntopics.\nThis module lays a strong foundation for real-world NLP systems.\n45\nThank You\n46",
+      "heading": null,
+      "page_start": 181,
+      "page_end": 186,
+      "child_index": 3,
+      "parent_index": 30
+    }
+  ]
+}

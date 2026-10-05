@@ -1,0 +1,350 @@
+[
+  {
+    "id": "nlp_001",
+    "question": "What is Natural Language Processing (NLP)?",
+    "topic": "NLP fundamentals",
+    "difficulty": "easy",
+    "answerable": true,
+    "reference_answer": "Natural Language Processing is a field that enables computers to understand, process, interpret, and generate human language. The lecture notes describe it as a way to bridge the gap between unstructured natural-language data such as text and speech and computer processing.",
+    "generated_answer": "**Natural Language Processing (NLP)** is a branch of artificial intelligence that enables computers to **understand, interpret, and generate human language**—whether the input is written text or spoken audio [Natural Language Processing Lecture Notes.docx, p. 1].  \n\n- **Why it matters:** Traditional computers excel at handling structured data (e.g., tables, databases), but human language is unstructured and ambiguous. NLP bridges this gap, allowing machines to work with everyday language [Natural Language Processing Lecture Notes.docx, p. 1].  \n- **Main components:**  \n  - **Natural Language Understanding (NLU):** Interprets the meaning of the input.  \n  - **Natural Language Generation (NLG):** Produces human‑like text from processed data [Natural Language Processing Lecture Notes.docx, p. 1].  \n- **Typical uses:** speech recognition, language translation, text summarization, part‑of‑speech tagging, named‑entity recognition, personal digital‑file organization, etc. [Natural Language Processing Lecture Notes.docx, p. 1; Natural Language Processing PPT, p. 1].\n\n*Example:* A voice‑assistant converts your spoken request (“What’s the weather today?”) into text, understands the intent (NLU), retrieves the forecast, and then generates a spoken reply (“It’s sunny with a high of 75 °F”) (NLG).",
+    "reference_sources": [
+      "NLP Lecture Notes",
+      "NLP PPT"
+    ],
+    "retrieved_sources": [
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing PPT.pptx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Speech and Language Processing.pdf"
+    ],
+    "latency_seconds": 16.892907599976752,
+    "correctness": 2,
+    "completeness": 2,
+    "faithfulness": 1,
+    "citation": 2,
+    "overall": 1.75,
+    "judge_reason": "The answer correctly defines NLP, includes key details, mostly aligns with evidence, but includes a minor example not directly sourced; citations are accurate."
+  },
+  {
+    "id": "nlp_003",
+    "question": "What is the difference between NLU and NLG?",
+    "topic": "NLP fundamentals",
+    "difficulty": "easy",
+    "answerable": true,
+    "reference_answer": "NLU is concerned with reading and interpreting language and mapping input into a useful representation. NLG is concerned with writing or generating natural language, including text planning, sentence planning, and text realization.",
+    "generated_answer": "**Difference between NLU and NLG**\n\n| Aspect | Natural Language Understanding (NLU) | Natural Language Generation (NLG) |\n|--------|--------------------------------------|-----------------------------------|\n| Primary Goal | **Read and interpret** human language. It maps the input text to a useful internal representation so the system can understand its meaning. | **Write or generate** human‑like language. It converts non‑linguistic data (e.g., database records, sensor outputs) into natural‑language text. |\n| Direction of Processing | From **natural language → internal representation** (analysis). | From **internal/non‑linguistic representation → natural language** (production). |\n| Typical Tasks | Part‑of‑speech tagging, named‑entity recognition, semantic parsing, intent detection. | Text planning, sentence planning, text realization (turning data into sentences). |\n| Example (from the material) | “NLU is the process of reading and interpreting language.” [Natural Language Processing Lecture Notes, p. 1] | “NLG is the process of writing or generating language… it converts computerized data into natural language representation.” [Natural Language Processing Lecture Notes, p. 1] |\n\nIn short, **NLU** focuses on *understanding* what a user says, while **NLG** focuses on *producing* a coherent, natural‑language response from the system’s internal data.",
+    "reference_sources": [
+      "NLP Lecture Notes",
+      "NLP PPT"
+    ],
+    "retrieved_sources": [
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing PPT.pptx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Speech and Language Processing.pdf"
+    ],
+    "latency_seconds": 6.712638699973468,
+    "correctness": 2,
+    "completeness": 2,
+    "faithfulness": 2,
+    "citation": 2,
+    "overall": 2.0,
+    "judge_reason": "The answer accurately reflects the reference, includes all key points, is fully supported by the provided evidence, and cites the source correctly."
+  },
+  {
+    "id": "nlp_004",
+    "question": "List the five phases of NLP described in the lecture notes.",
+    "topic": "NLP pipeline",
+    "difficulty": "easy",
+    "answerable": true,
+    "reference_answer": "The lecture notes describe lexical analysis and morphology, syntactic analysis (parsing), semantic analysis, discourse integration, and pragmatic analysis.",
+    "generated_answer": "The lecture notes state that NLP consists of five phases, but the excerpt you provided only names two of them:\n\n1. **Lexical Analysis (Morphological analysis)** – scans the text and breaks it into paragraphs, sentences, and words.  \n2. **Syntactic Analysis (Parsing)** – checks grammar and word order and determines relationships among words.  \n\nThe remaining three phases are not listed in the available excerpt, so the indexed material does not contain enough information to give the complete five‑phase list.",
+    "reference_sources": [
+      "NLP Lecture Notes"
+    ],
+    "retrieved_sources": [
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing PPT.pptx",
+      "Natural Language Processing PPT.pptx",
+      "Natural Language Processing PPT.pptx",
+      "Foundations of Statistical Natural Language Processing.docx"
+    ],
+    "latency_seconds": 7.415779899980407,
+    "correctness": 0,
+    "completeness": 0,
+    "faithfulness": 0,
+    "citation": 0,
+    "overall": 0.0,
+    "judge_reason": "The answer omits three of the five phases, contradicts the reference and evidence, provides no citations, and makes unsupported claims."
+  },
+  {
+    "id": "nlp_006",
+    "question": "What is morphological analysis?",
+    "topic": "Morphology",
+    "difficulty": "easy",
+    "answerable": true,
+    "reference_answer": "Morphological analysis studies the internal structure of words by identifying morphemes, the smallest meaningful units. It considers free morphemes such as 'cat' and bound morphemes such as prefixes and suffixes.",
+    "generated_answer": "**Morphological analysis** is the computational process of breaking a word into its smallest meaning‑bearing units, called *morphemes* (e.g., roots, prefixes, suffixes). By identifying these parts—such as free morphemes like “cat” and bound morphemes like the prefix “un‑” or the suffix “‑ing”—the analysis reveals how a word is formed and what each component contributes to its meaning【Evidence 2】.  \n\nIn NLP, this analysis helps tasks such as text normalization, language modeling, and machine translation by providing a deeper understanding of word structure【Evidence 5】.  \n\n*Example*: The word **“unhappiness”** can be split into the prefix **un‑**, the root **happy**, and the suffix **‑ness**, showing that it means “the state of not being happy.”",
+    "reference_sources": [
+      "NLP Lecture Notes",
+      "NLP PPT"
+    ],
+    "retrieved_sources": [
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing PPT.pptx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing Lecture Notes.docx"
+    ],
+    "latency_seconds": 6.496132499945816,
+    "correctness": 2,
+    "completeness": 2,
+    "faithfulness": 2,
+    "citation": 2,
+    "overall": 2.0,
+    "judge_reason": "Answer accurately defines morphological analysis, includes free/bound morphemes, adds relevant example, aligns with evidence, and cites sources correctly."
+  },
+  {
+    "id": "nlp_007",
+    "question": "Differentiate stemming and lemmatization.",
+    "topic": "Text normalization",
+    "difficulty": "medium",
+    "answerable": true,
+    "reference_answer": "Stemming reduces a word by removing affixes and may produce a stem that is not an actual word. Lemmatization converts a word to its base or dictionary form while considering context; for example, the notes give 'better' becoming 'good'.",
+    "generated_answer": "**Stemming**  \n- **What it does:** Applies simple, rule‑based heuristics to strip prefixes and suffixes from a word. Common algorithms are Porter, Snowball, and Lancaster stemmers【Evidence 2】.  \n- **How it works:** A series of suffix‑removal rules are applied iteratively (e.g., “running”, “runner”, “runs” → “run”).  \n- **Characteristics:**  \n  - Very fast and computationally inexpensive (simple rules, no need for a dictionary)【Evidence 1】.  \n  - May produce non‑words or incorrect stems (e.g., “caring” → “car”, “arguing” → “argu”)【Evidence 2】【Evidence 3】.  \n  - Can over‑stem (cut too much) or under‑stem (cut too little)【Evidence 1】.  \n\n**Lemmatization**  \n- **What it does:** Reduces a word to its *lemma*—the dictionary‑listed base form—by considering the word’s part of speech and context.  \n- **How it works:** Uses morphological analysis and a lexical lookup (dictionary) to find the correct base form【Evidence 4】【Evidence 5】.  \n- **Characteristics:**  \n  - More accurate because it returns real words (e.g., “caring” → “care”, “better” (adj.) → “good”)【Evidence 3】【Evidence 4】.  \n  - Slower and more computationally demanding than stemming, since it requires context analysis and dictionary access.  \n\n**Key Differences**  \n\n| Aspect | Stemming | Lemmatization |\n|--------|----------|---------------|\n| **Method** | Rule‑based affix stripping | Contextual morphological analysis + dictionary lookup |\n| **Speed** | Faster, low computational cost | Slower, higher cost |\n| **Output** | May be non‑words or crude stems | Always a valid lemma (real word) |\n| **Accuracy** | Lower; prone to over‑/under‑stemming | Higher; respects part of speech |\n| **Typical Use** | When speed is critical and exact form is less important (e.g., quick search indexing) | When linguistic precision matters (e.g., parsing, semantic analysis) |\n\n**Example**  \n- Word: **“caring”**  \n  - Stemming → “car” (incorrect, non‑word)【Evidence 3】  \n  - Lemmatization → “care” (correct verb lemma)【Evidence 3】\n\nThus, stemming is a fast, rule‑driven shortcut that can be imprecise, while lemmatization is a more sophisticated, context‑aware process that",
+    "reference_sources": [
+      "NLP Lecture Notes",
+      "NLP PPT"
+    ],
+    "retrieved_sources": [
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing Lecture Notes.docx"
+    ],
+    "latency_seconds": 7.158066000032704,
+    "correctness": 2,
+    "completeness": 2,
+    "faithfulness": 1,
+    "citation": 2,
+    "overall": 1.75,
+    "judge_reason": "Answer correctly differentiates stemming and lemmatization and covers key points, but includes a claim about lemmatization being slower that is not directly supported by the provided evidence."
+  },
+  {
+    "id": "nlp_008",
+    "question": "What is tokenization?",
+    "topic": "Tokenization",
+    "difficulty": "easy",
+    "answerable": true,
+    "reference_answer": "Tokenization is the process of dividing a text stream into smaller units called tokens. Depending on the task, tokens can be words, characters, subwords, sentences, or other units.",
+    "generated_answer": "**Tokenization** is the first step in many Natural Language Processing (NLP) pipelines. It means breaking a piece of text into smaller, manageable units called **tokens**.  \n\n- A token can be a **word**, a **character**, a **sub‑word**, or even a **sentence**, depending on how fine‑grained the analysis needs to be.  \n- By converting raw text into these discrete pieces, NLP models can more easily interpret, analyze, and process the language data.  \n\n**Example** – For the sentence “Tokenization is useful,” a word‑level tokenizer would produce the tokens:  \n`[\"Tokenization\", \"is\", \"useful\"]`.  \nA character‑level tokenizer would produce:  \n`[\"T\", \"o\", \"k\", \"e\", \"n\", \"i\", \"z\", \"a\", \"t\", \"i\", \"o\", \"n\", \" \", \"i\", \"s\", \" \", \"u\", \"s\", \"e\", \"f\", \"u\", \"l\"]`.\n\n*Sources:*  \n- Tokenization divides textual input into smaller units such as words, characters, sub‑words, or sentences, improving interpretability for models【Evidence 1, p. 67-72】.  \n- It is described as a fundamental process that breaks a stream of text into tokens, enabling machines to analyze human language more effectively【Evidence 2, p. 1】.",
+    "reference_sources": [
+      "NLP Lecture Notes",
+      "NLP PPT"
+    ],
+    "retrieved_sources": [
+      "Natural Language Processing PPT.pptx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing Lecture Notes.docx"
+    ],
+    "latency_seconds": 6.052474300027825,
+    "correctness": 2,
+    "completeness": 2,
+    "faithfulness": 2,
+    "citation": 2,
+    "overall": 2.0,
+    "judge_reason": "The answer correctly defines tokenization, mentions possible token types, provides examples, and cites the provided sources accurately."
+  },
+  {
+    "id": "nlp_009",
+    "question": "What are common types of tokenization listed in the course material?",
+    "topic": "Tokenization",
+    "difficulty": "medium",
+    "answerable": true,
+    "reference_answer": "The material lists word tokenization, character tokenization, sub-word tokenization, sentence tokenization, and N-gram tokenization. It also discusses rule-based, dictionary-based, whitespace, WordPiece, and SentencePiece/BPE approaches.",
+    "generated_answer": "The course material lists **Word Tokenization** as a common type of tokenization — the method that splits text into individual words, which works well for languages with clear word boundaries such as English [Natural Language Processing Lecture Notes, p. 1].",
+    "reference_sources": [
+      "NLP Lecture Notes",
+      "NLP PPT"
+    ],
+    "retrieved_sources": [
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing PPT.pptx",
+      "Natural Language Processing Lecture Notes.docx"
+    ],
+    "latency_seconds": 5.024317899951711,
+    "correctness": 1,
+    "completeness": 0,
+    "faithfulness": 2,
+    "citation": 2,
+    "overall": 1.25,
+    "judge_reason": "The answer correctly mentions Word Tokenization, which is supported by evidence, but omits other common types listed in the reference, making it incomplete."
+  },
+  {
+    "id": "nlp_011",
+    "question": "Give the POS tags for the sentence 'I am reading a book' as shown in the notes.",
+    "topic": "POS tagging",
+    "difficulty": "easy",
+    "answerable": true,
+    "reference_answer": "The notes give: I → Pronoun (PRP), am → Verb (VBP), reading → Verb (VBG), a → Article/Determiner (DT), book → Noun (NN).",
+    "generated_answer": "The indexed material does not include the POS‑tagged version of the sentence “I am reading a book,” so I cannot provide the tags as shown in the notes.",
+    "reference_sources": [
+      "NLP Lecture Notes"
+    ],
+    "retrieved_sources": [
+      "Speech and Language Processing.pdf",
+      "Natural Language Processing Lecture Notes.docx",
+      "Speech and Language Processing.pdf",
+      "Speech and Language Processing.pdf",
+      "Foundations of Statistical Natural Language Processing.docx"
+    ],
+    "latency_seconds": 5.131981499958783,
+    "correctness": 0,
+    "completeness": 0,
+    "faithfulness": 0,
+    "citation": 0,
+    "overall": 0.0,
+    "judge_reason": "The answer fails to provide the required POS tags, omits the information, makes an unsupported claim about missing material, and provides no citations."
+  },
+  {
+    "id": "nlp_012",
+    "question": "What is syntactic analysis or parsing?",
+    "topic": "Syntax",
+    "difficulty": "easy",
+    "answerable": true,
+    "reference_answer": "Syntactic analysis examines how words are arranged according to grammar rules and identifies relationships among words. Its goal can include constructing a parse tree representing structures such as subject, verb, and object.",
+    "generated_answer": "**Syntactic analysis (also called parsing)** is the NLP step that examines how the words in a sentence are arranged according to grammatical rules.  \nIts main purpose is to build a **parse tree** that shows the hierarchical structure of the sentence—identifying parts such as subject, verb, object and the connections between them.  \n\n- By creating this tree, a system can verify that the sentence follows correct grammar, detect possible errors, and understand the relationships among words [Evidence 1, p. 1; Evidence 2, p. 19‑24].  \n- The resulting syntactic structure can be used later for deeper tasks such as semantic analysis or grammar‑checking applications [Evidence 3, pp. 432‑434].  \n\n**Example**  \nSentence: *“Agra goes to the Poonam.”*  \nA syntactic analyzer would break it into subject (*Agra*), verb (*goes*), and object (*the Poonam*), then draw a tree showing these roles. Because the phrase “the Poonam” is nonsensical, the parser can flag the sentence as grammatically odd or reject it [Evidence 5, p. 1].  \n\nIn short, parsing turns a linear string of words into a structured representation that reflects the sentence’s grammatical organization.",
+    "reference_sources": [
+      "NLP Lecture Notes",
+      "NLP PPT"
+    ],
+    "retrieved_sources": [
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing PPT.pptx",
+      "Speech and Language Processing.pdf",
+      "Natural Language Processing PPT.pptx",
+      "Natural Language Processing Lecture Notes.docx"
+    ],
+    "latency_seconds": 6.502440100011881,
+    "correctness": 2,
+    "completeness": 2,
+    "faithfulness": 2,
+    "citation": 2,
+    "overall": 2.0,
+    "judge_reason": "The answer accurately describes syntactic analysis and parse trees, covers all key points, is fully supported by the provided sources, and includes correct citations."
+  },
+  {
+    "id": "nlp_013",
+    "question": "What does semantic analysis do in NLP?",
+    "topic": "Semantics",
+    "difficulty": "easy",
+    "answerable": true,
+    "reference_answer": "Semantic analysis focuses on the meaning of words, phrases, and sentences. It considers literal meaning and whether the arrangement of words is logically coherent and contextually relevant.",
+    "generated_answer": "Semantic analysis is the NLP stage that moves beyond syntax to **interpret the meaning of words, phrases, and sentences**.  \nIt:\n\n* Determines the literal (dictionary) meaning of each lexical item and how that meaning changes with context.  \n* Checks that the arrangement of words forms a logically coherent, context‑appropriate statement.  \n* Captures the overall meaning representation of the text, taking into account grammar roles and the surrounding discourse.  \n\nIn short, semantic analysis “understands what the text means” rather than just whether it is grammatically correct【Natural Language Processing Lecture Notes.docx, p. 1】.",
+    "reference_sources": [
+      "NLP Lecture Notes",
+      "NLP PPT"
+    ],
+    "retrieved_sources": [
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Speech and Language Processing.pdf"
+    ],
+    "latency_seconds": 4.915015299979132,
+    "correctness": 2,
+    "completeness": 2,
+    "faithfulness": 2,
+    "citation": 2,
+    "overall": 2.0,
+    "judge_reason": "Answer matches reference, covers key points, all claims supported by evidence, citation correctly provided."
+  },
+  {
+    "id": "nlp_014",
+    "question": "What is discourse integration?",
+    "topic": "Discourse",
+    "difficulty": "easy",
+    "answerable": true,
+    "reference_answer": "Discourse integration connects individual sentences or text segments so that meaning remains consistent and coherent across a larger context. It uses relationships with preceding and following sentences.",
+    "generated_answer": "**Discourse integration** is the process of understanding how individual sentences or text segments connect and relate to one another within a larger context.  \nIt ensures that the overall meaning of a text remains consistent and coherent across multiple sentences or paragraphs, which is especially important for interpreting long or complex passages where later statements depend on earlier ones【Evidence 1, p. 1】【Evidence 2, pp. 25‑30】.",
+    "reference_sources": [
+      "NLP Lecture Notes",
+      "NLP PPT"
+    ],
+    "retrieved_sources": [
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing PPT.pptx",
+      "Natural Language Processing PPT.pptx",
+      "Speech and Language Processing.pdf",
+      "Speech and Language Processing.pdf"
+    ],
+    "latency_seconds": 4.429724500048906,
+    "correctness": 2,
+    "completeness": 2,
+    "faithfulness": 2,
+    "citation": 2,
+    "overall": 2.0,
+    "judge_reason": "Answer aligns with reference and evidence, fully captures the definition, is fully supported by the sources, and citations are accurate."
+  },
+  {
+    "id": "nlp_017",
+    "question": "What are some applications of NLP mentioned in the course material?",
+    "topic": "NLP applications",
+    "difficulty": "easy",
+    "answerable": true,
+    "reference_answer": "Applications include speech recognition, language translation, chatbots and virtual assistants, text summarization, sentiment analysis, information retrieval, grammar and text analysis, and information extraction.",
+    "generated_answer": "The course material lists several practical uses of Natural Language Processing, including:\n\n- **Speech recognition** – converting spoken audio into text.  \n- **Language translation** – automatically translating text from one language to another.  \n- **Text summarization** – producing concise summaries of longer documents.  \n\nThese examples are given in the “Applications or Use cases of NLP” section of the lecture notes【Evidence 3】.",
+    "reference_sources": [
+      "NLP Lecture Notes",
+      "NLP PPT"
+    ],
+    "retrieved_sources": [
+      "Natural Language Processing PPT.pptx",
+      "Natural Language Processing PPT.pptx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing PPT.pptx"
+    ],
+    "latency_seconds": 5.166829699999653,
+    "correctness": 2,
+    "completeness": 1,
+    "faithfulness": 2,
+    "citation": 2,
+    "overall": 1.75,
+    "judge_reason": "The answer correctly lists three NLP applications that are supported by the evidence, but it omits several applications mentioned in the reference (e.g., chatbots, sentiment analysis). All claims are backed by the cited source."
+  },
+  {
+    "id": "nlp_019",
+    "question": "Name the word embedding techniques listed in the course material.",
+    "topic": "Embeddings",
+    "difficulty": "medium",
+    "answerable": true,
+    "reference_answer": "The material lists Word2Vec, including Skip-Gram and CBOW, GloVe, and fastText. It also discusses pre-trained embeddings such as ELMo and BERT and advanced embeddings/models such as RoBERTa and DistilBERT.",
+    "generated_answer": "**Word‑embedding techniques mentioned in the course material**\n\n- **Word2Vec** – includes the *Skip‑gram* and *Continuous Bag‑of‑Words (CBOW)* models【Evidence 1】  \n- **GloVe** (Global Vectors for Word Representation)【Evidence 1】  \n- **fastText**【Evidence 1】  \n- **ELMo** (Embeddings from Language Models)【Evidence 1】  \n- **BERT** (Bidirectional Encoder Representations from Transformers)【Evidence 1】  \n- **Doc2Vec** (document‑level embeddings)【Evidence 1】  \n- **RoBERTa** (a robustly optimized BERT variant)【Evidence 1】  \n- **DistilBERT** (a distilled, smaller version of BERT)【Evidence 1】\n\nThese are the word‑embedding methods explicitly listed in the lecture notes.",
+    "reference_sources": [
+      "NLP Lecture Notes"
+    ],
+    "retrieved_sources": [
+      "Natural Language Processing Lecture Notes.docx",
+      "Natural Language Processing Lecture Notes.docx",
+      "Speech and Language Processing.pdf",
+      "Speech and Language Processing.pdf",
+      "Speech and Language Processing.pdf"
+    ],
+    "latency_seconds": 4.990944899967872,
+    "correctness": 1,
+    "completeness": 2,
+    "faithfulness": 2,
+    "citation": 2,
+    "overall": 1.75,
+    "judge_reason": "The answer lists all word embedding techniques from the reference and evidence, but adds Doc2Vec, which is a document‑level embedding rather than a word embedding, making it partially correct. All listed items are supported by the provided source and properly cited."
+  }
+]
