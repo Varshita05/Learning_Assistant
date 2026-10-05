@@ -55,3 +55,11 @@ npm --prefix frontend run build
 ```
 
 Run integration checks explicitly with `RUN_INTEGRATION_TESTS=1`; see the runbook before using external services.
+
+## Demo
+
+<img width="904" height="464" alt="image" src="https://github.com/user-attachments/assets/e2ca0bbe-ba48-4a32-979e-7cedc1a8e56a" />
+
+<img width="904" height="467" alt="image" src="https://github.com/user-attachments/assets/eb9c67db-6984-4d6c-a225-563eb6012cb1" />
+
+<img width="898" height="467" alt="image" src="https://github.com/user-attachments/assets/2261bafe-13db-4fde-9545-975dead1afc6" />
