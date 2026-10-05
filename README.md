@@ -2,6 +2,8 @@
 
 A retrieval-augmented study assistant with a FastAPI backend, Qdrant retrieval, a LangGraph answer workflow, and a React/Vite client.
 
+<img width="949" height="500" alt="image" src="https://github.com/user-attachments/assets/ae4001d0-f0d8-43d0-9b59-b77f1c5f6f3f" />
+
 ## Current Status
 
 - React/Vite is the sole supported UI. The retired Streamlit client and its dependency have been removed.
